@@ -1,0 +1,7 @@
+stage,rows
+raw,3010
+after_normalization,3010
+after_near_duplicate_removal,3007
+train,2104
+val,451
+test,452

@@ -1,0 +1,452 @@
+text,intent
+"travelling to Thialand next wek, will my card work?",abroad
+need a business loan asap,business_loan
+"hi um I'm a bit worried carrying ten thousand in cash to the branch, what's the safest way to deposit it",cash_deposit
+the banks phone program wont even start since my phone updated,app_error
+I want to borrow money to grow my landscaping company. What are the options?,business_loan
+"um I need to pay the builder sixty thousand for the extension, can I do it in one go",high_value_payment
+right um the hospital sent me an invoice and I don't know how to send the money,pay_bill
+hi so I'm a freelancer and I've changed my email for work stuff can I update it,address
+um can I stop the money the charity takes every month,direct_debit
+hi um my granddaughter gave me notes to put in her account how do I do that,cash_deposit
+Has my wages come in yet? Cant see it,latest_transactions
+so basically I want to pay off my credit card statement in full,pay_bill
+"Website keeps loging me out, really anoying",app_error
+new phone number,address
+so uh my card's not working because you put a stop on it can you take it off,freeze
+my card was stolen from my bag at the gym this morning,card_issues
+"Our church collected $1,400 in the offering, how do we bank it?",cash_deposit
+i moved to a new apartment in queens update my address please,address
+lost card,card_issues
+My mum is moving into a care home and wants me on her account. She can't get to a branch. Can this be done by post?,joint_account
+um hi I want to pay my electricity bill please,pay_bill
+Someone used my card details to buy things online last night. I still have the physical card. Please block the card right away.,freeze
+My son's card arrived but the PIN never did. He's at university and needs to get cash out. Can the PIN be resent?,card_issues
+deposit machine nearby?,cash_deposit
+"I'm a student and my parents sent me money for my tuition. I need to pay the university $27,000 this week. Will a single transfer work?",high_value_payment
+hi um I'm a freelancer and I want to set up recurring payments for my software subscriptions,direct_debit
+right so I'm a parent and I want to see what my son's been buying on his card,latest_transactions
+so I'm trying to pay the deposit on our house and it says amount too high,high_value_payment
+right I'm a landlord and I want my tenants to pay me by direct debit how does that work,direct_debit
+The app keeps showing my transactions from last week only and won't refresh. I've pulled down to refresh a dozen times. Is there a problem with syncing?,app_error
+hi um how much does it cost to set up a business loan,business_loan
+I'm 22 and run an online sneaker resale business. I want to borrow $10k to buy more inventory. Would you even consider someone my age?,business_loan
+"uh hi so I've got a bag of coins from my kids' piggy banks, can I deposit them at the branch",cash_deposit
+um my card keeps stopping at two hundred dollars at the machine why is that,atm_limit
+I want to freeze my card until I find out who's been using it.,freeze
+um hi I can't seem to log in to my online banking at all it keeps saying details not recognised,app_error
+Why's my old address still showing?!,address
+so uh I put cash in the wrong account at the machine can that be fixed,cash_deposit
+List my last 5 card payments please.,latest_transactions
+right so we've moved and um both me and my husband need our addresses changed,address
+uh yes I'd like a copy of my recent transactions please,latest_transactions
+"My large transfer to the builder has been pending for two days. It's $65,000 and they won't start work until it arrives. Can you speed it up?",high_value_payment
+okay um the hospital needs thirty five thousand upfront for my surgery how do I pay that,high_value_payment
+"Honeymoon in the Maldives next month, just want everything to work smoothly with my card.",abroad
+so I'm calling to check whether my salary's arrived,latest_transactions
+Why did a 40 baht street snack come with a fee bigger than the snack itself?,abroad
+hi there my husband's got dementia and I want his card stopped from working,freeze
+"We've relocated the business to Parramatta, please update our registered address.",address
+okay so my business loan repayment went up and I want to know why,business_loan
+I'll be in Seoul for work from Monday. Do I need to do anything so purchases go through?,abroad
+business loan rates,business_loan
+"Sorry to bother you, how do I pay a bill from my savings account?",pay_bill
+I keep getting an error saying 'Unable to process your request' whenever I try to log in. It's been happening since the weekend. Could someone check my account?,app_error
+My phone number changed when I switched carriers. The app asks for a code sent to the old number which I no longer have. How do I get it changed?,address
+What's the maximum I can withdraw over the counter versus at the machine?,atm_limit
+What's the daily spend limit on my card when I'm overseas?,abroad
+my login code expires before it even arrives,app_error
+Why does the app keep asking me to log in again every time I switch screens?,app_error
+startup loan?,business_loan
+How much monney is in my acount?,balance
+stop recurring payment,direct_debit
+"I've lost my debit card somewhere in town, how do I get a replacement?",card_issues
+"I need to make a large payment of $85,000 for a house deposit, how do I do it?",high_value_payment
+um hi I need to set up a direct debit for my rent please,direct_debit
+so uh my business account's been put on hold and I need it released,freeze
+How to pay a bill with BAPY?,pay_bill
+hi um I'm at a hospital in Spain and they need a card payment and mine's being declined,abroad
+"Okay so uh I've been trying to wire twenty-two thousand dollars to my contractor for the kitchen remodel and it keeps getting held, why is that?",high_value_payment
+okay um my partner wants to be taken off our joint account,joint_account
+I want to deposite $200 cash today,cash_deposit
+so like I've got about five hundred bucks in cash can I deposit it at the ATM,cash_deposit
+so like can I put cash into my account through the machine at the shopping centre,cash_deposit
+uh where can I take the money from my market stall to bank it,cash_deposit
+Do you send a confirmation letter to the new address after I change it?,address
+the login button on your site does nothing,app_error
+I need to no my balance before I pay rent,balance
+I need the current balance of my business account. I have to pay three suppliers this afternoon. Please let me know as soon as possible.,balance
+right I want to change where the bank sends my post,address
+"I need to pay a $65,000 deposit on a farm property today.",high_value_payment
+"hi um the builder wants the next stage paid, it's eighty five thousand",high_value_payment
+"Sorry to bother you, my card was stolen yesterday and I'd like a replacement please.",card_issues
+Card keeps getting rejected for online purchases even though the details are right.,card_issues
+How long dose a large transfer take?,high_value_payment
+"Good morning, my wife and I are going on a cruise round the Greek islands next month and I wanted to let you know so nothing gets stopped.",abroad
+what came out of my savings this month,latest_transactions
+"hi um my card got snapped in the car door, how long does a new one take",card_issues
+Can I check my balance at any ATM or only yours?,balance
+right I'd like to reduce my daily ATM limit to two hundred pounds for security,atm_limit
+My card chip is bent and wont go in the machien,card_issues
+um I'm calling because I've lost my bank card and I need a new one,card_issues
+Does my withdrawal limit go up if I have a premium account?,atm_limit
+right so the direct debit for my car insurance needs to change to the twentieth,direct_debit
+Can the amount I'm allowed to withdraw each day be changed? Moving flats and paying cash.,atm_limit
+"My contact details are out of date, can I change them on the website?",address
+The shop assistant says my debit is unreadable.,card_issues
+Would you be able to update my postal address? I've moved to a new flat in Bristol. Thank you.,address
+How far back can I see my transactions online?,latest_transactions
+uh hi I just want to know my balance please,balance
+"There's a direct debit coming out that I never agreed to, Clearview Media, £9.99 a month.",direct_debit
+hi um is it possible to send fifty thousand pounds online today,high_value_payment
+Please send everything to my new place in Hobart from now on.,address
+What's the most I can pull out of a cashpoint per day?,atm_limit
+so the thing is the app worked fine yesterday and today it just won't open,app_error
+so uh I've got a parking notice and it's due tomorrow,pay_bill
+um hello I need to update my telephone number please it's changed,address
+"Kindly increase my cash withdrawal limit to $1,500 per day from this Friday.",atm_limit
+card not working,card_issues
+Can I pay my bill at the post office?,pay_bill
+so basically the reset password link you emailed me says it's expired as soon as I click it,app_error
+so uh how long does it take to set up a direct debit,direct_debit
+My employer says they paid my wages yesterday. Nothing has shown up yet. Could you check for any incoming payments?,latest_transactions
+card expired how do i get a new one,card_issues
+Did the refnd come through yet?,latest_transactions
+What's the process for paying in a large amount of notes?,cash_deposit
+"Good morning, I need to make a payment of £120,000 for a property purchase. Could you guide me through it?",high_value_payment
+Can we set a spending limit for each person on the joint account?,joint_account
+"Overdue notice from the internet company, need to settle now.",pay_bill
+hi um my card won't let me take out more than fifty at a time is that a limit on my account,atm_limit
+business finance options?,business_loan
+so I'm a florist and I want to open a second shop how do I go about borrowing for that,business_loan
+um basically I'm moving to Melbourne from Manchester and I want to know if I can still use my UK card there for a few months,abroad
+is my account still frozen,freeze
+How do I get the $210 to the vet clinic? They gave me a reference.,pay_bill
+okay um can I set up a direct debit for my pet insurance,direct_debit
+um hello my card's expired and the new one hasn't come in the post,card_issues
+"Our business loan is due for renewal, what are the options?",business_loan
+"I want to give my grandson £30,000 towards his flat. How do I get it to him safely?",high_value_payment
+okay I'm literally at the register right now I need to know what's in my account before I swipe like right now,balance
+uh hi I'm sending my mum two hundred thousand from the sale of my house,high_value_payment
+so basically I've got the shop takings and I want them in the bank tonight,cash_deposit
+Pleaes unblock my account,freeze
+right um can two people own the same account,joint_account
+"so the thing is i'm in mexico city and my card just got eaten by the atm, um, what now",abroad
+"okay so um I travel for work like every other week to Europe, can I just set it so I don't have to tell you each time",abroad
+"Card rejected in Marrakech, nothing works.",abroad
+I need my last month's statement entries for my landlord.,latest_transactions
+joint account with parent,joint_account
+Going to visit family in Manila over Christmas. Will my Visa work there without me calling first?,abroad
+Is freezing my card the same as cancelling it?,freeze
+Cancel Tidewater Gas direct debit,direct_debit
+so uh my partner and I want to buy an existing bakery and we'd need a loan to cover most of it,business_loan
+every time I tap anything on your phone thing it closes,app_error
+Can I convert my sole account into a joint account?,joint_account
+My card got put through the washing machine and now it's all bent.,card_issues
+Do you still have a night safe at the Main Street branch?,cash_deposit
+need my mortgage direct debit date changed before Friday,direct_debit
+I want to set up an autopay for my utilites,direct_debit
+"Withdrawal limit on my card is $500? Need it at $1,000.",atm_limit
+so um I need to get sixty grand to my lawyer for the house,high_value_payment
+sorry I'm not great with technology but when I press log in nothing happens at all,app_error
+"Just wanted to give you my new phone number, the old one is cancelled.",address
+so annoying that I can only take out 300 a day whats the point,atm_limit
+right um the last few payments on my credit card please,latest_transactions
+Can my company borrow to cover a cash shortfall this quarter?,business_loan
+okay so I'm a parent and I want to set up direct debits for my kids' activities,direct_debit
+uh hi the website says my account is temporarily unavailable what does that mean,app_error
+Can I pay part of a house deposit from my savings and part from my current account?,high_value_payment
+My partner and I want to open a joint account but he's on a work visa. Can he still be a joint holder?,joint_account
+atm limit too low,atm_limit
+hi um I'm retired and I'd feel safer if my card could only take out a hundred pounds a day at the cash point,atm_limit
+okay so like I'm in Seoul and every time I tap it says card error but at home it's totally fine,abroad
+I keep getting 'session timed out' on the website the moment I log in.,app_error
+Do you lend to limited companies that are less than a year old?,business_loan
+Could someone read me out what I've got in each account?,balance
+Can I deposit cash at the post office into my account with you?,cash_deposit
+My bill paymnet didnt go through,pay_bill
+so basically I'd like my partner to be a co-owner of my savings,joint_account
+hi um I'm a freelance graphic designer and I want to borrow for a proper studio space,business_loan
+i want to pay my energy bill early,pay_bill
+Why was my business loan rejected when my turnover is solid?,business_loan
+right um I need a statement for the last three months,latest_transactions
+How quickly can a business loan be approved? I have a contract starting next month.,business_loan
+hows my balance looking after the weekend,balance
+"Lower my daily ATM withdrwal limit to $200 please, I keep overspending.",atm_limit
+"I need a loan for my compnay, about $60k",business_loan
+uh hi I need to pay my credit card it's due on Friday,pay_bill
+Retired and moved to the coast. Where do I give you the new details?,address
+Waht's the max business loan amont?,business_loan
+The dentist emailed an invoice with BSB and account number. How do I send it?,pay_bill
+I'd like the monthly payment to my nursery to move from the 1st to the 15th.,direct_debit
+okay so I'm buying a horse and the breeder wants fifteen thousand pounds by transfer,high_value_payment
+hi there um is the deposit machine at Southport working,cash_deposit
+uh yes hello I've moved and I wanted to update my address please,address
+Is it possible to borrow against my business's invoices?,business_loan
+um can I deactivate my card for a week while I sort out my spending,freeze
+hi um the terminal at the shop keeps saying chip error,card_issues
+"Updating my number for two-factor, where do I do that?",address
+right I want to talk to someone about restructuring my business loan,business_loan
+deposit takings,cash_deposit
+"My ATM limit was changed without me asking. Please put it back to $1,000.",atm_limit
+i need to cancel the uh autopay for my storage unit before it hits tomorrow cause i already moved everything out,direct_debit
+right so I'm a parent and I want to check the balance on my son's account,balance
+What's the safest way to send money to buy a horse?,high_value_payment
+i want to pay my electric bill uh its like eighty seven bucks and its due today,pay_bill
+can you put a temporary stop on my card,freeze
+hang on um can I just get my balance before I transfer anything,balance
+need to move 75000 to my conveyancer today for the house,high_value_payment
+"I've moved from Brisbane to Cairns, how do I change my address online?",address
+I'd like to change my joint account into an account in my name only.,joint_account
+"Charged in USD on an American website even though I'm in the UK, why is there an extra fee on top?",abroad
+Please send all future post to my PO box instead of my home.,address
+can i block my kids card from my app,freeze
+Got refused at the cashpoint for £700 but £300 worked. What's going on with the amount?,atm_limit
+How do I open a joint account with my fiancé?,joint_account
+so I've been on the phone for ages and nobody can tell me why my login doesn't work,app_error
+What's the daily ATM withdrawal limit on a standard debit card?,atm_limit
+Why did the ATM let me take £250 yesterday but only £200 today?,atm_limit
+Haven't been able to get into my account online since the weekend.,app_error
+hi um I want to update my email and my phone number please both have changed,address
+is there a way to take out more money from the machine than usual for one day,atm_limit
+um hi I want to set up a joint account with my husband,joint_account
+"I want to put my holiday cash back into my account, about $350.",cash_deposit
+"I run a small café and we deal in a lot of cash. The current $1,000 ATM limit isn't enough on busy weekends. Can it be raised permanently?",atm_limit
+I put my wallet down at the café and when I came back my debit was gone. What now?,card_issues
+so the thing is I need to borrow for a commercial kitchen fit-out and I don't know where to start,business_loan
+"Block my card ASAP, my bag was snatched ten minutes ago.",freeze
+My card got stollen at the train station,card_issues
+can i pay half my bill now and half later,pay_bill
+card got swallowed by the ATM and I need cash now,card_issues
+My debit's chip is hanging off.,card_issues
+How much could my café borrow to renovate the kitchen?,business_loan
+okay so I've got a wad of notes from selling my car how do I get it in the bank,cash_deposit
+Balance on my business account?,balance
+"lost my card at a concert, what do I do now",card_issues
+joint savings account,joint_account
+"Hiya, um, I'm off to a car boot sale Saturday and I'll want about £600 in cash, is that more than the machine will let me take out?",atm_limit
+Could my letters be posted to my office instead of home?,address
+right I'm buying a tractor at auction and I need to pay thirty eight thousand by Monday,high_value_payment
+"Good afternoon, could you tell me where I can deposit cash near Clapham? Thank you.",cash_deposit
+um can you tell me the last three things that came out of my account,latest_transactions
+okay so the new Mastercard you sent hasn't turned up yet,card_issues
+There's a direct debit I dont recognise on my acount,direct_debit
+i want to block my card from online gambling sites,freeze
+What were the last few things I paid for?,latest_transactions
+"so the app won't let me past the terms and conditions screen, the accept button doesn't do anything",app_error
+"We're going to Rarotonga next month and I'm not sure if the island even takes cards, will mine work?",abroad
+so like do I have any money left at all,balance
+"Would you be able to raise my transfer limit so I can pay $45,000 for a car?",high_value_payment
+Is there a fee for paying in USD on holiday in Florida? I'm from Sydney.,abroad
+um I've moved and I've already done it online but it's still showing the old one,address
+How do I put my partner's name on my account?,joint_account
+What have I spent on my credit card since it was last paid off?,latest_transactions
+hi there um what security would you need for a business loan,business_loan
+How do I give my partner equal ownership of my savings account?,joint_account
+can i withdraw 2000 at the atm today,atm_limit
+Can my wife and I have one account in both our names?,joint_account
+"Hello, I'd like to check the balance on my checking account. I'm about to make a large purchase and want to be sure.",balance
+um so what were my last three payments,latest_transactions
+"My husband and I have had separate accounts for years. Now we've bought a house together, we'd like a joint account for the mortgage and household costs. Can we keep our separate accounts too?",joint_account
+um hi I need to freeze my card please I can't find it,freeze
+I've tried to pay my gas bill three times and it keeps failing!,pay_bill
+"so uh I'm a retiree and I'm buying a motorhome for seventy thousand, how do I pay for it",high_value_payment
+can i deposit cash at the supermarket,cash_deposit
+Did the bank fee get charged this month?,latest_transactions
+How much is in there? Just paid the mechanic and I'm nervous.,balance
+can a direct debit come out on a weekend,direct_debit
+"Buying a used motorhome for $92,000 from a dealer interstate. How do I pay?",high_value_payment
+um yes I'm calling about getting finance for my building business,business_loan
+replacement card please,card_issues
+"Yes hello, I'd just like to go through the last few payments that came out of my acount this week if thats alright.",latest_transactions
+"My balance looks wrong, can you confirm what it actually is?",balance
+hang on um is it possible to take someone off a joint account without them signing anything,joint_account
+went to the machine at the shops to get out 1500 for the grandkids birthday presents and it only let me take 1000 is there a way to get that raised just for this week,atm_limit
+"block my credit card now, there's a transaction in a shop I've never been to",freeze
+i need to send money for the settlement on friday,high_value_payment
+um so can I pay my mum's phone bill for her,pay_bill
+why is my card declining everywhere today,card_issues
+so basically the deposit machine is jammed and has my money,cash_deposit
+right so the screen goes black every time I open the bank thing on my phone,app_error
+We'd like to merge our two accounts into a single shared one.,joint_account
+I asked for my ex to be removed from our joint account a month ago and nothing's happened!,joint_account
+I paid my phone bill three days ago but the phone company says they haven't received it. I used the right reference. Can you check where it went?,pay_bill
+Hw much do I have in my account,balance
+Did I get paid by my client Westbrook Design on Monday?,latest_transactions
+right um can I pay a bill for my business from my personal account,pay_bill
+I'd like to block all contactless payments on my card.,freeze
+Can I pause my card from the app?,freeze
+right so I paid a bill to the wrong company can I get it back and pay the right one,pay_bill
+What was the last payment into my savings?,latest_transactions
+How do I pay a bill that doesn't have a biller code?,pay_bill
+Your system rejected my BPAY payment again. Why?,pay_bill
+I cancelled that direct debit THREE times and it keeps coming back!,direct_debit
+so I've got a phone bill here and I want to pay it now,pay_bill
+"I'm retired and I'd like to give each of my three grandchildren £20,000. Should I do it as separate transfers? Will they be flagged?",high_value_payment
+My landlord wants me to pay the water bill directly this quarter. He's given me the biller code. What do I do next?,pay_bill
+What is my avialable balance today?,balance
+Am I overdrawn at the moment?,balance
+update postal address,address
+I'm moving to Singapore for two years. What happens to my debit card?,abroad
+"Hit my withdrawal limit, need more cash today, how do I get it raised?",atm_limit
+uh hello I've got a question about the repayments on my business loan,business_loan
+My son is at university and his phone contract is in my name. I want to set up a direct debit for it from my account. How do I do that?,direct_debit
+hi um so I'm in Canada and the pharmacy machine just says not supported every time,abroad
+What's the minimum I can set my ATM limit to?,atm_limit
+so I've been getting weird login alerts and I want everything frozen,freeze
+um sorry I'm in a panic I've been scammed and I need my accounts frozen right now,freeze
+hang on so if we open a joint account do we both get cards,joint_account
+I want to go through everything that's gone in and out since payday.,latest_transactions
+My teenage son has a part-time job paid in cash. He wants to deposit it into his account. Can he do it himself or does he need me?,cash_deposit
+hi um I'm trying to log in and it's asking me for a code but I never get the text,app_error
+what have i got left to spend this week,balance
+we want a joint account for our wedding savings,joint_account
+i keep getting kicked out of the app after a few seconds,app_error
+so uh how does the travel notice work do I have to do it for every country,abroad
+Do I need a business plan to get a loan from you?,business_loan
+"My card has a crack along the side, will it still work or should I get a new one?",card_issues
+hang on can I turn my card off from the app or do I need to call,freeze
+"Good morning, I'd like to set up a direct debit for my home insurance please.",direct_debit
+How do I set up a direct debit for my mobile phone contract?,direct_debit
+Want to add my husbnad to my account,joint_account
+My energy company wants my bank details so they can collect monthly. How does that work?,direct_debit
+I've just moved to a new flat. I'd like my address updated and I want to know if you'll send me a letter to confirm it.,address
+Please disable my card for online and in-store use until Monday.,freeze
+house settlement is at 3pm and my transfer hasn't left,high_value_payment
+"My address shows the wrong suburb, it should be Carlton not Carlton North.",address
+app keeps freezing,app_error
+so I'm retired and I want my wife to have access to my account as a joint holder,joint_account
+okay so I'm a parent and I want to check my daughter's spending this week,latest_transactions
+right um did the phone company take their money yet,latest_transactions
+so uh my banking app just keeps crashing on the home screen I've reinstalled it twice,app_error
+Do frozen cards still receive refunds?,freeze
+How do I remove my ex-wife from our joint account?,joint_account
+"joint account holder died, need access to pay funeral costs",joint_account
+"I'm buying land and need to transfer $210,000 to the vendor's lawyer.",high_value_payment
+uh yes hello I need to stop a direct debit urgently it's coming out tomorrow,direct_debit
+so basically I need to pay my gas bill and I don't know how,pay_bill
+Would it be possible to pay my water bill over the phone?,pay_bill
+temporary card freeze,freeze
+hi um I froze my card in the app by mistake and now I can't work out how to undo it,freeze
+password reset not working,app_error
+so uh what's the available balance on my checking,balance
+Can I borrow for my business using my house as security?,business_loan
+okay so I want to pay my water bill but I've lost the reference,pay_bill
+I'm a sole trader and need money for new tools. Do you lend to people like me?,business_loan
+hi there um can I find out how much is in my account over the phone,balance
+Do I need to tell you if I cancel a direct debit with the company directly?,direct_debit
+how do i turn off the overseas block on my card im in mexico now,abroad
+do you do unsecured business loans,business_loan
+i need to know my balance asap,balance
+uh how do I let the broadband company take the money each month,direct_debit
+"My $90,000 transfer was stopped AGAIN. I've already verified it twice!",high_value_payment
+is my balance updated in real time,balance
+My account was restricted after I logged in from a new phone. Can that be lifted?,freeze
+so I've rung twice about my address and um it's still wrong on the statements,address
+I need a breakdown of what I've spent this fortnight.,latest_transactions
+how much is left in my account,balance
+app not loading,app_error
+"Hey, I'm doing a stopover in Doha. Will my card be blocked if I use it there?",abroad
+okay um sorry I just I need to change uh my email address the one you have is old,address
+Am I in credit at the moment?,balance
+ATM limit?,atm_limit
+currency conversion fee on my statement is way higher than what the website says,abroad
+The magnetic strip on my card isn't working.,card_issues
+How do I pay a bil with BPAY?,pay_bill
+uh hi I just want to know what direct debits I've got set up,direct_debit
+so like the app won't let me pay the full amount for the car,high_value_payment
+"Two of us want to open an account together, what's the process?",joint_account
+wire for house closing,high_value_payment
+whats my balance I need to know before the auction starts,balance
+pay gas bill now,pay_bill
+how much can a small business borrow from you,business_loan
+right I've been charged a non-sterling transaction fee and I'd like to know what it actually is,abroad
+Replacment card hasnt arrived,card_issues
+right so I need to remove my ex from the joint account we had,joint_account
+Would it be possible to send a new card to my home address? Mine has been damaged.,card_issues
+hi um I just got a new phone and a new number so I need to update it,address
+online banking says my session expired every five minutes,app_error
+Is there a fee to increase my withdrawal limit?,atm_limit
+how much is in my kids account,balance
+"The dealership wants $47,500 for the SUV. Can I send it from my phone?",high_value_payment
+uh hi I want to check if my rent payment went out yesterday,latest_transactions
+The pay someone button in the app is greyed out and I can't tap it.,app_error
+"Lost my Mastercard on a night out, need a new one ASAP.",card_issues
+"I need my business account unfrozen, payroll is due tomorrow.",freeze
+okay so can you read me my recent transactions please I can't get to the app,latest_transactions
+my card got stolen at a festival,card_issues
+Need to switch the email on my account from my work one to my personal one.,address
+Show me my last tranactions,latest_transactions
+"I only want to change my mailing address, not my home address.",address
+I'm in Phnom Penh and every ATM refuses my card.,abroad
+"so uh I'm a freelancer and some clients pay me cash, how do I get that into my account",cash_deposit
+do you take rolled coins,cash_deposit
+What's the total in my account now that my pay has come in?,balance
+account frozen why,freeze
+so um how much money is actually in my account right now,balance
+App crashs when I open it on wifi,app_error
+show me the last five payments into my account,latest_transactions
+how long does it take to unblock a card,freeze
+right so I'm a freelancer and I'm buying a property and need to pay the deposit,high_value_payment
+need a same day payment of 120k for property,high_value_payment
+"Dinner in Lisbon came to €60 but I was charged £56 plus a fee, why?",abroad
+hi so I'm getting married next week and I need lots of cash for the vendors can the machine limit go up,atm_limit
+I'm a freelancer and I rely on the app to see invoices coming in. Since Monday it just shows an error when I log in. This is costing me time.,app_error
+card damaged,card_issues
+okay so I've got a new account and I need all my direct debits moved over,direct_debit
+"Oh good morning, I'm ringing to find out the balance on my pension account, I've not had a letter from you in a while.",balance
+hang on so if I cancel the direct debit does that cancel my contract too,direct_debit
+so I'm retired and my wife and I want to combine our accounts into one,joint_account
+Is the deposit machin at the high street branch working?,cash_deposit
+can a joint account be opened for a business and a person,joint_account
+"hang on um I'm looking at my app and I can see the card is frozen, I didn't do that",freeze
+How long does a replacement card usually take to arrive?,card_issues
+"Sorry to trouble you, my account appears to be frozen. Could you tell me why?",freeze
+Set up a monthly direct debit of $85 to Coastline Broadband from the 1st.,direct_debit
+"Seasonal business here, can I get credit to cover the off-season?",business_loan
+The ATM in Krakow gave me zloty but charged me way more than I expected.,abroad
+temporary ATM limit increase,atm_limit
+hi um sorry I'm calling because I've got a new email address,address
+the app on my ipad just shows a white screen,app_error
+so um I've got a big bag of coins and I want them in my account,cash_deposit
+Can we change our joint account to require both signatures?,joint_account
+I've moved my salary to a new account with you. I'd like all my direct debits moved over from the old one. Is there a switching service that does this?,direct_debit
+um so I'm checking whether a refund from the airline came in,latest_transactions
+so I don't live at the address you've got anymore I moved like six weeks ago,address
+right so I want to know if my son's paid me back yet,latest_transactions
+My nan gave me $500 in notes for my birthday. Can I put it straight into my savings?,cash_deposit
+"my internet bill is overdue, how do i pay it fast",pay_bill
+hi so I just got paid and I want to know my balance now,balance
+I'd be grateful if you could explain the difference between my ATM limit and my daily spending limit.,atm_limit
+Does a cash deposit at the counter show in my account straight away?,cash_deposit
+It says my password must be changed but then rejects every new one I try.,app_error
+Is there a way to see only incoming money?,latest_transactions
+Why can't I log in from my work computer?,app_error
+How do I send money to my mobile provider using the biller code?,pay_bill
+hang on sorry um my card just got declined at the bakery what's wrong with it,card_issues
+Why is there a 3% charge on my coffee from Amsterdam?,abroad
+How much is still in the account we use for groceries?,balance
+Is it cheaper to take cash out in Thailand or pay by card?,abroad
+"My card was blocked this morning while I was paying for groceries. The text says suspicious activity, but it was just me at the supermarket. Can it be unblocked?",freeze
+"Why can I only withdraw $400 a day? I thought it was $1,000.",atm_limit
+"Dark mode in the app makes the text invisible, can't read anything.",app_error
+uh I'd like to bank about three hundred dollars in coins from my vending machines,cash_deposit
+I'd be grateful if you could tell me which direct debits are active on my account.,direct_debit
+My email address has changed because my old provider shut down. I want to make sure I still get my e-statements. How do I switch it over?,address
+new card not arrived,card_issues
+"Visting my sister in Toronto, do I need to let you know?",abroad
+raise cash withdrawal limit,atm_limit
+What's the smallest business loan you offer?,business_loan
+"Card won't work anywhere in Bali, been trying for two days.",abroad
+I've got a notice from the council for £129. How do I send it?,pay_bill
+"Depositing takings, which branch accepts coins?",cash_deposit
+"Turn my credit card off for now, I'm trying not to spend.",freeze
+How do I give my water company permission to collect payments from my account?,direct_debit
+"so uh where's the nearest ATM I can feed cash into, I've got like three hundred forty bucks from a garage sale",cash_deposit
+Open joint account with partner,joint_account
+okay um what are the hours for cash deposits at the Bondi branch,cash_deposit
+so uh did the payment to my electrician go out,latest_transactions
+How do I temporarily increase my cash withdrawal limit for a wedding next weekend?,atm_limit
+"uh I'm calling from Lisbon, the hotel tried to put a deposit hold on my card and it was refused",abroad
+card not working in Thailand HELP,abroad
+"Need my wife added to the account today, she has to pay the hospital.",joint_account
