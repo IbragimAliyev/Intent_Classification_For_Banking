@@ -34,6 +34,7 @@ python-dateutil==2.9.0.post0
 pyzmq==27.2.0
 scikit-learn==1.9.1
 scipy==1.18.1
+sentence-transformers==6.1.0
 six==1.17.0
 stack-data==0.6.3
 threadpoolctl==3.7.0

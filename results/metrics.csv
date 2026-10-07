@@ -1,2 +1,3 @@
 model,dataset,accuracy,macro_f1
 tfidf_lr,synthetic_test,0.9403,0.9386
+sbert_svm,synthetic_test,0.9867,0.9866
