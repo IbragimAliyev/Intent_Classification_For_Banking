@@ -1,0 +1,2 @@
+model,dataset,accuracy,macro_f1
+tfidf_lr,synthetic_test,0.9403,0.9386
