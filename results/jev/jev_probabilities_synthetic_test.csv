@@ -1,0 +1,453 @@
+text,intent,pred,confidence,latency_s,input_tokens,prob_abroad,prob_address,prob_app_error,prob_atm_limit,prob_balance,prob_business_loan,prob_card_issues,prob_cash_deposit,prob_direct_debit,prob_freeze,prob_high_value_payment,prob_joint_account,prob_latest_transactions,prob_pay_bill
+I'm retired and I've moved into a smaller unit in the same village. The street name is different though. Please make sure my letters go to the new one.,address,address,1.0,0.5655411998741321,736,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"The self-checkout keeps rejecting my debit, but there's money in the account.",card_issues,card_issues,0.99,0.40716820000670806,720,0.0,0.0,0.0,0.0,0.01,0.0,0.99,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+can i see what i spent at the supermarket,latest_transactions,latest_transactions,1.0,0.40710399998351904,711,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+Waht is the withdrawal limit on a seniors account?,atm_limit,atm_limit,1.0,0.414579299977049,713,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+so basically I want to see all my card purchases since Friday,latest_transactions,latest_transactions,1.0,0.50608230009675,714,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+uh I'm flying out to Singapore tonight and I just wanted to say so you don't block the card,abroad,abroad,0.99,0.527521199779585,723,0.99,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.01,0.0,0.0,0.0,0.0
+did my government payment come in,latest_transactions,latest_transactions,1.0,0.44717540009878504,708,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+Can I pay £40k for a car by bank tranfer?,high_value_payment,high_value_payment,1.0,0.43822670006193204,717,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+app crashes the second i open it since the update,app_error,app_error,1.0,0.459515299880877,712,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Why does a bill payment take two days? It's due today!,pay_bill,pay_bill,1.0,0.413295800099149,716,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+um I'm calling because I can't find my card anywhere,card_issues,card_issues,1.0,0.43079539993777805,714,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Can I chnage my direct debit amount?,direct_debit,direct_debit,1.0,0.44465089985169404,712,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+"final notice on my water bill, need to pay immediately",pay_bill,pay_bill,1.0,0.44097250001505006,713,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+right so can my card be stopped from working just for tonight,freeze,freeze,1.0,0.44692269992083306,714,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+Do I lose my direct debits if I freeze my card?,freeze,freeze,0.71,0.457012600032612,715,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.27,0.73,0.0,0.0,0.0,0.0
+The machine took my money but my account didn't go up.,cash_deposit,cash_deposit,0.63,0.41506430017761803,715,0.0,0.0,0.0,0.0,0.05,0.0,0.0,0.66,0.0,0.0,0.03,0.0,0.26,0.0
+The plastic you sent me last month still hasn't shown up.,card_issues,card_issues,1.0,0.48027050006203303,715,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"the postman says nothing from you has come for me, my new debit should be here by now",card_issues,card_issues,1.0,0.47430190001614303,722,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+The deposit machine has been out of order for a week. Where else can I deposit cash?,cash_deposit,cash_deposit,1.0,0.442528199870139,721,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+right I'm trying to set up online banking for the first time and the activation code isn't working,app_error,app_error,1.0,0.40110979997552904,722,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+How do I check when my next direct debit is due?,direct_debit,direct_debit,0.98,0.42227520002052105,714,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.98,0.0,0.0,0.0,0.02,0.0
+"I'm still waiting on my replacement Visa, it's been 3 weeks.",card_issues,card_issues,1.0,0.445140700088813,718,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+does the limit reset at midnight or 24 hours after,atm_limit,atm_limit,1.0,0.5745084001682691,714,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Someone swiped my purse at the train station and my debit was in it.,card_issues,card_issues,0.78,0.40904529998078903,718,0.0,0.0,0.0,0.0,0.0,0.0,0.8,0.0,0.0,0.2,0.0,0.0,0.0,0.0
+Could you check whether my new card has been dispatched? It hasn't arrived yet.,card_issues,card_issues,1.0,0.48541159997694105,719,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+What do I need to apply for a business loan as a sole trader?,business_loan,business_loan,1.0,0.41827670019119906,717,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"I type my password, press enter, and the page just spins forever.",app_error,app_error,1.0,0.436537199886515,717,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"I'm sending my son £20,000 towards his first flat. Will it go through straight away?",high_value_payment,high_value_payment,1.0,0.43751660012640003,726,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+my new card came but its already damaged,card_issues,card_issues,1.0,0.670500099891796,710,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+am i in the negative,balance,balance,1.0,0.49970709998160606,707,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+uh app won't let me in,app_error,app_error,1.0,0.415780399926006,709,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+My card won't tap anymore since I dropped my wallet in the pool.,card_issues,card_issues,1.0,0.443475800100713,717,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Did my pay come in todya?,latest_transactions,latest_transactions,0.9500000000000001,0.42707059998065205,710,0.0,0.0,0.0,0.0,0.05,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.9500000000000001,0.0
+moving out of my parents place next week can i change my address now or wait,address,address,1.0,0.494083500001579,718,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"Paying the builder $75,000, any isues?",high_value_payment,high_value_payment,0.99,0.557483199983835,718,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.99,0.0,0.0,0.01
+"my son only needs pocket money from the machine, can we stop his card giving out more than $40 a day",atm_limit,atm_limit,1.0,0.44789299997501003,726,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+hang on so was there something taken by the gym on the first,latest_transactions,latest_transactions,0.9,0.44141860003583105,715,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.09,0.0,0.0,0.0,0.91,0.0
+"The cash point in Lyon kept my card and the branch is closed till Monday, I fly home Sunday.",abroad,abroad,0.7000000000000001,0.40586320008151205,723,0.72,0.0,0.0,0.0,0.0,0.0,0.28,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"We've moved to a new apartmnet in Brooklyn, please change the adress on our account.",address,address,1.0,0.46560980007052405,722,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Can you unblok my debit card?,freeze,freeze,1.0,0.418327400228008,710,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+okay so basically my cafe takes a lot of cash and I need a better way to bank it,cash_deposit,cash_deposit,1.0,0.6400142000056801,721,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+um so I've got about two grand in notes from the market stall and I need to pay it in today before you shut,cash_deposit,cash_deposit,0.99,0.496031299931928,727,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.99,0.0,0.0,0.01,0.0,0.0,0.0
+um so I'm calling about my business loan I want to borrow a bit more,business_loan,business_loan,1.0,0.44062880007550104,718,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Can I temporarily block my card while I'm in hospital?,freeze,freeze,1.0,0.41261280002072404,714,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+How do I depost cash at the ATM?,cash_deposit,cash_deposit,1.0,0.46230609994381605,712,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+Can I set different ATM limits for weekdays and weekends?,atm_limit,atm_limit,1.0,0.45935499994084206,713,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+um so do we both need to come into the branch to open a joint account,joint_account,joint_account,1.0,0.434637900209054,718,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+i need more cash out than my card allows today,atm_limit,atm_limit,1.0,0.45673470012843603,712,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+so I'm about to book flights and I want to make sure I've got enough in the account first,balance,balance,1.0,0.420350899919867,723,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+I'm retired and I like to keep a paper record. Could you post me a list of this month's transactions? I don't use the internet.,latest_transactions,latest_transactions,1.0,0.43966530007310206,733,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+right I need around twenty thousand to keep the business going over winter,business_loan,business_loan,1.0,0.46015590010210805,715,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"Where on earth do I go to pay my Kestrel Mobile phone bill, I've been searching the app for ages.",pay_bill,pay_bill,1.0,0.44250410003587604,727,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+Why didn't my direct debit go out? Now I've got a late payment fee.,direct_debit,direct_debit,0.98,0.5100191000383341,720,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.98,0.0,0.0,0.0,0.02,0.0
+right um my wife died and I need the joint account changed to just my name,joint_account,joint_account,1.0,0.581511500058695,718,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+"I was charged three separate foreign fees for one hotel booking in Vienna, can someone explain?",abroad,abroad,0.98,0.49241339997388406,720,0.98,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.02,0.0
+right so I've got some cash from a client and I want to deposit it today,cash_deposit,cash_deposit,1.0,0.47449409984983504,719,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+How do I pay my electricty bill?,pay_bill,pay_bill,1.0,0.441887499997392,712,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+hi um can I change our joint account so either of us can sign,joint_account,joint_account,1.0,0.446897499961778,716,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+okay so I need my card frozen just for a couple of days,freeze,freeze,1.0,0.41002509999088904,715,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"Card keeps being declined on a French website, is it because it's a foreign shop?",abroad,abroad,0.53,0.45396240008994904,720,0.56,0.0,0.0,0.0,0.0,0.0,0.44,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+What's in my everyday account? Payday is Thursday.,balance,balance,1.0,0.578486899845302,714,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Shops in Barcelona keep rejecting my card but my husband's works fine.,abroad,card_issues,0.7000000000000001,0.455671599833294,717,0.28,0.0,0.0,0.0,0.0,0.0,0.72,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"Card expires soon, will I get a new one automatically?",card_issues,card_issues,1.0,0.42289579985663206,714,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+so basically I've moved my business from Melbourne to Geelong and the address needs changing,address,address,1.0,0.446335699874907,719,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+will freezing my card stop pending payments,freeze,freeze,1.0,0.484170699957758,709,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+new adress for my busines account please,address,address,1.0,0.44236829993315,710,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+pay the parking fine today before it doubles,pay_bill,pay_bill,1.0,0.41729989997111205,710,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+so I need to find a payment I made to a builder in July,latest_transactions,latest_transactions,1.0,0.419065300142392,716,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+The code you text me is rejected every single time I try to get in.,app_error,app_error,0.99,0.419739999808371,718,0.0,0.0,0.99,0.0,0.0,0.0,0.01,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+My Visa has a crack right through the chip now.,card_issues,card_issues,1.0,0.44481989997439003,713,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Why is my withdrawal limit so low? It's my money!,atm_limit,atm_limit,1.0,0.46678850008174705,715,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+honeymoon in santorini pls dont block my card,abroad,abroad,0.9500000000000001,0.43771540001034703,714,0.9500000000000001,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.05,0.0,0.0,0.0,0.0
+Want to deposit some cahs into my savings,cash_deposit,cash_deposit,1.0,1.455649000126868,711,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+"so uh I need to pay my son's school excursion invoice, it's ninety dollars",pay_bill,pay_bill,1.0,0.485828200122341,719,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"Sorry to bother you, how do we convert our joint account into two sole accounts?",joint_account,joint_account,1.0,0.43770960019901306,719,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+The bureau de change rate vs your card rate in Prague - which is better for me?,abroad,abroad,1.0,0.42723290016874604,720,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"Need my ATM limit raised in the next hour, the seller is waiting!",atm_limit,atm_limit,1.0,0.418580699944868,717,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+So I was promised a decision on my business loan by Friday and it's now Wednesday.,business_loan,business_loan,1.0,0.43001420004293306,720,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+How long can I keep my card frozen?,freeze,freeze,1.0,0.428571800002828,711,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+Can I withdraw Canadian dollars directly or will it convert from my USD account?,abroad,abroad,0.9500000000000001,0.427817799849435,717,0.9500000000000001,0.0,0.0,0.04,0.0,0.0,0.0,0.0,0.0,0.0,0.01,0.0,0.0,0.0
+"My card is crakced, can I get another?",card_issues,card_issues,1.0,0.40846609999425704,714,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"I sold my old bike for $250 in notes, can I put it in at the machine?",cash_deposit,cash_deposit,1.0,0.442495699971914,724,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+"I'm paying for a hip replacement privately, £14,500 to the clinic.",high_value_payment,high_value_payment,0.9500000000000001,0.44968149997293905,722,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.9500000000000001,0.0,0.0,0.05
+Is there a charge every time I tap my card in Tokyo?,abroad,abroad,1.0,0.44178489991463704,715,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+right I'm calling to ask where I can deposit cash after work,cash_deposit,cash_deposit,1.0,0.476019800174981,715,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+can i pay my bill on a sunday,pay_bill,pay_bill,1.0,0.47690680017694803,710,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"Good afternoon, I've been unable to access online banking since yesterday. Could someone look into it, please? Thank you.",app_error,app_error,1.0,0.449389100074768,727,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+okay so I just keep getting an error when I try to open my credit card in the app,app_error,app_error,1.0,0.45057449978776204,721,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Whats the most I can withdrw from the ATM in a day?,atm_limit,atm_limit,1.0,0.43749460019171205,717,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+I've noticed my account is a bit lower than I thought. I'd like to see all transactions from the past two weeks. Can you email them to me?,latest_transactions,latest_transactions,1.0,0.43543659988790706,735,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+"Your app limit is useless for buying a car, I need to send $35k now.",high_value_payment,high_value_payment,1.0,0.461575400084257,722,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+hi um I'm elderly and I want to know what I've spent at the chemist,latest_transactions,latest_transactions,1.0,0.46199620002880604,720,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+Login page keeps refreshing in a loop on Firefox.,app_error,app_error,1.0,0.43961750017479,712,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+okay um can my company borrow against our building,business_loan,business_loan,1.0,0.431557900039479,711,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+so um I want my card switched off for now till I find it,freeze,freeze,0.88,0.418870099820196,716,0.0,0.0,0.0,0.0,0.0,0.0,0.11,0.0,0.0,0.89,0.0,0.0,0.0,0.0
+okay sorry what's my current balance and what's my available balance,balance,balance,1.0,0.43404350010678105,715,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+I want to check my ballance,balance,balance,1.0,0.473105099983513,709,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+so like my card just got stolen I literally just noticed,card_issues,card_issues,0.99,0.450388900004327,713,0.0,0.0,0.0,0.0,0.0,0.0,0.99,0.0,0.0,0.01,0.0,0.0,0.0,0.0
+can a joint account have one card only,joint_account,joint_account,1.0,0.428290699841454,710,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+whats the biller code for my water company,pay_bill,pay_bill,0.99,0.479503200156614,712,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.01,0.0,0.0,0.0,0.0,0.99
+"I'm buying a car from a private seller for £24,000. He's asked for a bank transfer before I collect it. Is there anything I should check to avoid being scammed?",high_value_payment,high_value_payment,1.0,0.41486199991777506,745,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+"pay my credit card bill now, it's due at midnight",pay_bill,pay_bill,1.0,0.6240223001223051,714,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+Did my rent paymnet go out?,latest_transactions,latest_transactions,0.99,0.42247730004601103,711,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.99,0.01
+Want to send my dauther 25k for her wedding,high_value_payment,high_value_payment,1.0,0.393110200064256,716,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+banking app crashes,app_error,app_error,1.0,0.46281739999540106,706,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+hi so I'm a builder and I need finance for a new excavator,business_loan,business_loan,1.0,0.42640339978970504,718,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Face ID login broken again,app_error,app_error,1.0,0.41292310017161005,707,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+How do I tell you I've moved?,address,address,1.0,0.43210710003040703,711,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+why did my card stop working the minute i got to bali,abroad,abroad,0.96,0.44670099997892904,714,0.96,0.0,0.0,0.0,0.0,0.0,0.04,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+how many people can be on a joint account,joint_account,joint_account,1.0,0.46203080005943703,711,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+okay um did my child benefit come in,latest_transactions,latest_transactions,0.97,0.48104079999029603,710,0.0,0.0,0.0,0.0,0.03,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.97,0.0
+How do I add a biller for my gas compnay?,pay_bill,direct_debit,0.58,0.44492959999479303,715,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.61,0.0,0.0,0.0,0.0,0.39
+What credit options are there for a business that's been trading 18 months?,business_loan,business_loan,1.0,0.46297949994914206,719,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+add partner to account,joint_account,joint_account,1.0,0.43476990005001404,706,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+"Tips from my bartending shifts are piling up in a shoebox, about $1,100. What's the easiest way to get them into my checking?",cash_deposit,cash_deposit,1.0,0.44238600018434204,738,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+Do you do loans for new busineses?,business_loan,business_loan,1.0,0.41982579999603303,712,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Is ther a limit on ATM withdrawls per transaction?,atm_limit,atm_limit,1.0,0.5629221999552101,714,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+can i open a joint account with my grandson,joint_account,joint_account,1.0,0.43504490004852403,711,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+hi there I've got some cash from my birthday and I want to put it in my savings,cash_deposit,cash_deposit,1.0,0.455739200115203,721,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+Did my transfer to my son actually go through yesterday?,latest_transactions,latest_transactions,0.73,0.424515600083395,713,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.25,0.0,0.75,0.0
+I'd be grateful if you could explain how to pay a bill using BPAY.,pay_bill,pay_bill,1.0,0.43812539987266,719,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+What's the process for sending more than £50k online?,high_value_payment,high_value_payment,1.0,0.45650780014693704,716,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+hi so I'm a student and I want a joint account with my girlfriend,joint_account,joint_account,1.0,0.40486159990541604,717,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+okay so I want to pay my water bill over the phone,pay_bill,pay_bill,1.0,0.45832830015569903,714,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"Need to get $250,000 into my solicitor's trust account before settlement.",high_value_payment,high_value_payment,1.0,0.41740119992755303,724,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+"I've moved, need my detials changed",address,address,1.0,0.48431509989313704,711,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+hi there um I just want to check my balance on my savings account,balance,balance,1.0,0.408942599780857,716,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Someone broke into my car and took my wallet with my debit inside.,card_issues,card_issues,0.75,0.42217949987389103,716,0.0,0.0,0.0,0.0,0.0,0.0,0.77,0.0,0.0,0.23,0.0,0.0,0.0,0.0
+hi um I need to pay my council rates before the end of the month,pay_bill,pay_bill,1.0,0.43256899993866604,717,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+uh how much have I got in my savings and my current account together,balance,balance,1.0,0.45328000001609303,716,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+The cash machine only gave me $500 when I asked for $800. Can that be changed?,atm_limit,atm_limit,0.99,0.448448400013148,726,0.0,0.0,0.0,0.99,0.0,0.0,0.0,0.0,0.0,0.0,0.01,0.0,0.0,0.0
+Can I schedule a large payment for next Monday?,high_value_payment,high_value_payment,1.0,0.46968459989875505,712,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+okay so I want to fund a second food truck how would I do that,business_loan,business_loan,1.0,0.42034630011767105,717,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Were can I deposit coins?,cash_deposit,cash_deposit,1.0,0.484452700009569,708,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+hi um I need to stop my card being used my wallet's missing,freeze,card_issues,0.47000000000000003,0.43927769991569204,716,0.0,0.0,0.0,0.0,0.0,0.0,0.51,0.0,0.0,0.49,0.0,0.0,0.0,0.0
+"Please add a travel note: Spain and Morocco, 2 June to 19 June.",abroad,abroad,1.0,0.422677099937573,721,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Did the money my brother sent on Friday arrive?,latest_transactions,latest_transactions,0.89,0.43803320010192603,712,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.0,0.9,0.0
+"The app wont let me sign in on my new phone, keeps saying device not recognisd",app_error,app_error,1.0,0.44140280014835304,721,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Why does my partner still not have a card for our joint account?,joint_account,joint_account,0.86,0.455233399989083,716,0.0,0.0,0.0,0.0,0.0,0.0,0.13,0.0,0.0,0.0,0.0,0.87,0.0,0.0
+"The vendor's lawyer needs the 10%, $68,000, by 5pm.",high_value_payment,high_value_payment,0.96,0.430720899952575,725,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.96,0.0,0.0,0.04
+honestly your app is useless it crashes more than it works,app_error,app_error,1.0,0.44487530016340304,715,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+The apps login screen jsut keeps reloding,app_error,app_error,1.0,0.44715319992974406,711,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Is the withdrawal limit the same for my savings and my everyday account?,atm_limit,atm_limit,1.0,0.447243999922648,716,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+The little bank icon on my phone opens and closes instantly.,app_error,app_error,1.0,0.457012700149789,714,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"Could my card be deactivated temporarily, not cancelled?",freeze,freeze,0.99,0.41403450001962405,715,0.0,0.0,0.0,0.0,0.0,0.0,0.01,0.0,0.0,0.99,0.0,0.0,0.0,0.0
+so basically I want to know everything I spent in town yesterday,latest_transactions,latest_transactions,1.0,0.42900620005093504,714,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+how do we close our joint account now that weve separated,joint_account,joint_account,1.0,0.48291100002825205,714,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+"The energy company wants $312 by Friday, how do I get it to them?",pay_bill,pay_bill,1.0,0.47469819989055306,721,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+uh yes I'd like to pay a bill please I've got the reference,pay_bill,pay_bill,1.0,0.43507609982043505,717,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+so basically I want to freeze my account while I sort out a dispute with my ex,freeze,freeze,1.0,0.5026225999463351,719,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"Quick, how much is in my checking? Card's about to be run.",balance,balance,1.0,0.47470470005646304,718,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+My partner and I are going to be backpacking around South America for six months and um we want to set up a joint account so we can both pull from the same pot of money. What do we need to do to get that started over the phone?,joint_account,joint_account,1.0,0.444336399901658,755,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+Your app has logged me out four times today and now it says 'Error 503' when I try to sign back in. Sort it out please.,app_error,app_error,1.0,0.434154600137844,735,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+can i use my card at cash machines in canada or do i need to tell you first,abroad,abroad,1.0,0.43104229983873604,720,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+so like do you need my personal tax returns too for a business loan,business_loan,business_loan,1.0,0.43681519990786905,716,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"I'm looking for a charge from about two weeks ago, maybe from a petrol station.",latest_transactions,latest_transactions,1.0,0.45164850004948603,720,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+"Freeze my card NOW, someone's using it!",freeze,freeze,1.0,0.47417589998804005,713,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+right so I want to freeze my credit card but keep my debit card open,freeze,freeze,1.0,0.519767800113186,717,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+How much money is left in my account after the weekend?,balance,balance,1.0,0.43919499986805005,714,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+so basically we're backpacking around Asia for six months what's the best way to use our cards without paying loads,abroad,abroad,1.0,0.446442400105297,726,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+im an aussie living in bali for six months do i need to do anything with my account,abroad,abroad,1.0,0.480001499876379,721,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Is there a way to change my phone number without the old number? I don't have that SIM anymore.,address,address,1.0,0.47266640001907906,724,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+We're a married couple wanting to open a shared savings account.,joint_account,joint_account,1.0,0.44546249997802,715,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+chip not working,card_issues,card_issues,1.0,0.433278299868106,705,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+right so I want to transfer a hundred grand to my wife's account at another bank,high_value_payment,high_value_payment,1.0,0.44087190018035405,719,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+"Need my balance right now, I'm at the car dealer.",balance,balance,1.0,0.454675500048324,715,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"The cash machine stopped me at $800 today even tho I had plenty in the acount, can I bump that up?",atm_limit,atm_limit,1.0,0.41730000008828905,729,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Can I deposit cash at any of your ATMs or only certain ones?,cash_deposit,cash_deposit,1.0,0.42800169996917203,717,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+Is it possible to cap how much a company can take from my account each month?,direct_debit,direct_debit,0.97,0.47703559999354106,719,0.0,0.0,0.0,0.02,0.0,0.0,0.0,0.0,0.97,0.0,0.01,0.0,0.0,0.0
+Can we close our joint acount online?,joint_account,joint_account,1.0,0.44637240003794404,711,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+Where's the closest place I can bank notes on a Sunday?,cash_deposit,cash_deposit,1.0,0.671499399933964,715,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+i need a loan to buy stock for my shop before christmas,business_loan,business_loan,1.0,0.5684669001493601,714,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+right I'm moving to Glasgow at the end of the month and I want my details sorted before I go,address,address,1.0,0.5524567000102251,723,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+My business loan was declined and I'd like to understand why.,business_loan,business_loan,1.0,0.49307699990458703,715,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+okay so my daughter's getting married and I'm paying the venue twenty five thousand,high_value_payment,high_value_payment,0.98,0.43273789994418604,718,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.98,0.0,0.0,0.02
+Since I got my new phone I can't get into my banking at all.,app_error,app_error,1.0,0.45999710005708006,718,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+the app wont let me reset my pin it just errors out,app_error,app_error,1.0,0.48477840004488804,714,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Pay my Ridgeview Energy bill of $186.40 please.,pay_bill,pay_bill,1.0,0.47492700000293503,720,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+okay so my sister and I have inherited some money and we want a joint account for it,joint_account,joint_account,1.0,0.409622099949046,720,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+Is the balance on the ATM screen up to date?,balance,balance,1.0,0.43766720010899,713,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Do I need to tell the bank if I'm crossing into Mexico for a day trip from San Diego?,abroad,abroad,1.0,0.535302399890497,723,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+The texts you send are going to a phone I don't have anymore.,address,address,1.0,0.412317099981009,717,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+My password manager fills it in correctly but your sign-in page still rejects it.,app_error,app_error,1.0,0.43151580006815404,718,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+hi um is it possible to get a business loan with a low credit score,business_loan,business_loan,1.0,0.42965400009416005,717,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+I need to clear my outstanding vet invoice.,pay_bill,pay_bill,1.0,0.48695930000394505,711,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+so basically we need funding for a new warehouse,business_loan,business_loan,1.0,0.446065199794247,711,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"Changing my contact email to my personal one, the work one is ending when I leave the company.",address,address,1.0,0.446086499840021,722,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+so basically my credit card statement is due and I want to pay the full amount from my current account,pay_bill,pay_bill,1.0,0.487619900144636,722,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+Can a charity apply for a business loan?,business_loan,business_loan,1.0,0.46494109998457106,711,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+um is it possible to have no limit at all on the ATM,atm_limit,atm_limit,1.0,0.44678490003570903,715,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Online banking won't accept my security answers even though I know they're right.,app_error,app_error,1.0,0.631478300085291,718,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"My card is blokced, can you remove it",freeze,freeze,0.96,0.442587900208309,712,0.0,0.0,0.0,0.0,0.0,0.0,0.04,0.0,0.0,0.96,0.0,0.0,0.0,0.0
+changed email,address,address,1.0,0.42001129989512204,704,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+I'd be grateful if you could explain how to deposit coins at my local branch.,cash_deposit,cash_deposit,1.0,0.466944399988278,719,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+Can I set my ATM limit to zero? I never use cash.,atm_limit,atm_limit,1.0,0.44488080008886705,716,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+okay so we're moving in together and want an account in both our names,joint_account,joint_account,1.0,0.40993060008622706,717,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+so I'm a student and my card just stopped working at the uni canteen and the library,card_issues,card_issues,1.0,0.45290040015242905,721,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+My daughter is on exchange in Lyon and says her card gets refused at the canteen.,abroad,abroad,0.88,0.44751430000178505,720,0.89,0.0,0.0,0.0,0.0,0.0,0.11,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"need replacement card today, I have nothing else to pay with",card_issues,card_issues,1.0,0.403644900070503,714,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"I moved three months ago and just realised I never told you, can I do it now online?",address,address,1.0,0.42258449993096203,722,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Change my phone number from landline to mobile please.,address,address,1.0,0.42117589991539706,713,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+I'd like the vet insurance to stop coming out of my account each month.,direct_debit,direct_debit,1.0,0.490517300087958,718,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+"Hello, could you confirm my large transfer to the conveyancer has gone through?",high_value_payment,high_value_payment,1.0,0.46720670000649905,719,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+"cant log into online banking, says my password is wrong but i just reset it",app_error,app_error,1.0,0.42773380014114004,718,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Can I see what my daughter bought with her card this week?,latest_transactions,latest_transactions,1.0,0.41622029989957804,715,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+checking balance please,balance,balance,1.0,0.407609099987894,705,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"My acount is blocked, plz help",freeze,freeze,1.0,0.47490400006063205,711,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"okay so my mum's moved in with us and I need her account address changed to ours, I've got power of attorney",address,address,1.0,0.463780399877578,727,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+My credit card bill is due tomorrow. I want to pay it from my savings account. Is that possible?,pay_bill,pay_bill,1.0,0.45261569996364404,724,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+so the machine keeps saying amount not allowed when I try for a thousand,atm_limit,atm_limit,0.87,0.474714400013908,716,0.0,0.0,0.0,0.88,0.0,0.0,0.0,0.0,0.0,0.0,0.12,0.0,0.0,0.0
+okay um can my nursing home fees come out of my account every month without me doing it,direct_debit,direct_debit,1.0,0.42061219993047405,720,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+Is my balence positive or negative right now?,balance,balance,1.0,0.509319799952209,712,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+so basically I want my credit card to pay itself off every month automatically,direct_debit,direct_debit,0.99,0.444770700065419,716,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.99,0.0,0.0,0.0,0.0,0.01
+how do i make my account joint with my mum,joint_account,joint_account,1.0,0.418607600033283,712,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+so basically we've moved house and um I need the address changed on my savings,address,address,1.0,0.49585320008918604,718,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+hi um my card got stuck in the cash machine at the station and it didn't come back out,card_issues,card_issues,1.0,0.46665409998968205,722,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Which branches near Parramatta take cash deposits?,cash_deposit,cash_deposit,1.0,0.49786459980532505,712,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+Can I freeze my old card and keep using the new one?,freeze,freeze,1.0,0.5411793999373911,715,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+hi um I work in an office and I can't get on the website from my work computer it just times out,app_error,app_error,1.0,0.41150319995358503,725,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+The newspaper delivery company keeps charging me monthly after I cancelled.,direct_debit,direct_debit,1.0,0.41145360004156806,714,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+How do I activate my replacement card?,card_issues,card_issues,1.0,0.454502699896693,710,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"I'm buying a new car and want to pay the full $52,000 from my account, how?",high_value_payment,high_value_payment,1.0,0.466506799915805,727,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+"Sorry to bother you, is there anything I need to know before sending $80,000?",high_value_payment,high_value_payment,1.0,0.424064200138673,724,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+hang on um I think I left my debit at the restaurant last night,card_issues,card_issues,0.97,0.438628799980506,716,0.0,0.0,0.0,0.0,0.0,0.0,0.97,0.0,0.0,0.03,0.0,0.0,0.0,0.0
+"um so I'm paying off my parents' nursing home costs, it's eighty thousand in one go",high_value_payment,high_value_payment,0.99,0.448853199835866,722,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.99,0.0,0.0,0.01
+um the app wont open,app_error,app_error,1.0,0.48040229990147004,707,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Need a business loan decision by tomorrow or I lose the lease!,business_loan,business_loan,1.0,0.39646869990974604,715,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+What's the most cash I can get from the machine before it stops me?,atm_limit,atm_limit,1.0,0.460278100101277,718,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+How do I let my insurer take the premium from my account each month?,direct_debit,direct_debit,1.0,0.468138800002634,717,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+right um how do I do a CHAPS payment for my house completion,high_value_payment,high_value_payment,1.0,0.41479160008020705,716,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+"right so my partner and I are splitting up, what happens to the account we both own",joint_account,joint_account,1.0,0.490785700036212,720,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+right so my energy supplier wants to take payments from my account how do I set that up,direct_debit,direct_debit,1.0,0.438632100122049,720,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+right so the website's been showing an error page since about nine this morning,app_error,app_error,1.0,0.5064179999753831,717,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+so uh can I set up autopay for my utilities,direct_debit,direct_debit,1.0,0.41650060005486006,713,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+Can we open a joint savings account as well as a joint current account?,joint_account,joint_account,1.0,0.41849429998546805,717,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+Please make it so my card can only take out $200 cash a day.,atm_limit,atm_limit,1.0,0.447634499985724,720,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+The machine gave me half of what I asked and said I'd reached the amount for today.,atm_limit,atm_limit,1.0,0.44998720008879906,721,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"Off to Japan 3-17 March, please note it on my account so my card doesn't get blocked.",abroad,abroad,1.0,0.465441199950873,726,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Will a big cash deposit trigger any checks?,cash_deposit,cash_deposit,1.0,0.500801000045612,711,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+We want to close our joint account and split the money between our own accounts.,joint_account,joint_account,1.0,0.434078500140458,718,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+uh I just want to make sure I'm not overdrawn what's my balance,balance,balance,1.0,0.481372499838471,719,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+We're expecting our first baby in April and my husband and I want to merge our finances. Could you walk me through opening a joint acount and whether we both need to come in? Thnaks!,joint_account,joint_account,1.0,0.47954449988901604,744,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+i want to add my girlfriend to my checking account,joint_account,joint_account,1.0,0.42662080004811204,712,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+"Your text balance service hasn't worked in weeks, just tell me my balance.",balance,balance,1.0,0.44290319993160604,718,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"Need to cancel an autopay today, it'll overdraw me",direct_debit,direct_debit,1.0,0.40342270000837704,715,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+"hi um I'm elderly and my nephew says I need to send twenty thousand for something, is that safe",high_value_payment,high_value_payment,1.0,0.469634999986737,723,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+Are there any fees for paying off a business loan early?,business_loan,business_loan,1.0,0.417762400116771,714,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+um sorry I'm a bit nervous I've never borrowed for a business before what's the first step,business_loan,business_loan,1.0,0.412240300094708,722,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+I've been saving coins in a big jar for two years. It's probably over a hundred dollars. Can I bring it all in at once?,cash_deposit,cash_deposit,1.0,0.441039599943906,732,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+Could the cash I can take out each day be reduced to $150?,atm_limit,atm_limit,1.0,0.42089039995335004,719,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+can i transfer 100000 online,high_value_payment,high_value_payment,1.0,0.457346000010147,713,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+uh hi there's a direct debit I want to stop it's for an old phone contract,direct_debit,direct_debit,1.0,0.449070900212973,720,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+okay so I want to pay my mobile bill before they cut me off tonight,pay_bill,pay_bill,1.0,0.43978610006161,717,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+Card working in shops in Mexico but not at any ATMs.,abroad,abroad,0.47000000000000003,0.421842999989166,715,0.51,0.0,0.0,0.02,0.0,0.0,0.47000000000000003,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+okay um how much money can I actually get out of the machine on a Sunday,atm_limit,atm_limit,1.0,0.5082710001152,718,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Just arrived in Bangkok and can't get any cash out.,abroad,abroad,1.0,0.432871599914506,714,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+How can I settle a traffic infringement notice?,pay_bill,pay_bill,1.0,0.48484630021266606,711,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+Is there a fee for sending a big payment the same day?,high_value_payment,high_value_payment,1.0,0.46422960003837904,715,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+honestly this is the third time I've called I just need the fifty thousand to go to the escrow company before closing tomorrow,high_value_payment,high_value_payment,1.0,0.48718039994128004,729,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+The bank still thinks I live in Denver.,address,address,1.0,0.45684770005755104,711,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Can I set a direct debit to come out on the last working day of the month?,direct_debit,direct_debit,1.0,0.40806020004674703,720,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+"uh so I'm in Rome right now and the cash machine just said transaction not permitted, um, what do I do",abroad,abroad,1.0,0.47624840005300906,726,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+I cancelled my TV subscription but the direct debit is still active. They've taken another payment. Can you cancel it on your side?,direct_debit,direct_debit,1.0,0.41592790000140606,729,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+What time does the branch stop taking cash deposits on Saturdays?,cash_deposit,cash_deposit,1.0,0.429844300029799,714,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+i want to put cash in my kids account,cash_deposit,cash_deposit,1.0,0.47562310006469405,711,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+so uh my Mastercard got put in the dryer and now it's warped,card_issues,card_issues,1.0,0.44382270006462904,716,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+can i set up a direct debit to my credit card from this account,direct_debit,direct_debit,1.0,0.44327950011938805,716,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+what is the daily cash limit on a credit card at the atm,atm_limit,atm_limit,1.0,0.41732309991493804,715,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+so I've got a jar full of coins and I want to put them into my account,cash_deposit,cash_deposit,1.0,0.5569231999106701,720,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+um right I just need to change the address on my account please,address,address,1.0,0.6589530999772251,715,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Did my council tax come out on the 1st?,latest_transactions,latest_transactions,0.92,0.45296350005082703,714,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.05,0.0,0.0,0.0,0.93,0.02
+Website says my browser has cookies disabled but they're enabled.,app_error,app_error,1.0,0.44033999997191103,714,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"Good morning, my wife and I would like to open a joint account. Could you tell us how to proceed?",joint_account,joint_account,1.0,0.41571329999715,725,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+um so I set up a direct debit last week and the first payment didn't go out,direct_debit,direct_debit,1.0,0.47060730005614404,720,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+need new email added,address,address,1.0,0.43187979981303204,706,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"The holiday home we're buying in Cornwall needs £45,000 by Friday.",high_value_payment,high_value_payment,0.99,0.46927889995276906,721,0.0,0.0,0.0,0.0,0.0,0.01,0.0,0.0,0.0,0.0,0.99,0.0,0.0,0.0
+Where can I see a list of all my active direct debits?,direct_debit,direct_debit,0.99,0.41716260020621104,716,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.99,0.0,0.0,0.0,0.01,0.0
+"okay um my replacement card came but it won't activate, the phone line says invalid card",card_issues,card_issues,1.0,0.43957739998586404,720,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"We relocated our office to Docklands, please change the business address.",address,address,1.0,0.45118990004993903,716,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"hang on um I've got the reference number here, I want to pay the water bill now",pay_bill,pay_bill,1.0,0.47438689996488304,721,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+My girlfriend and I have been saving separately for a house. We want to open a joint savings account. Which one do you recommend?,joint_account,joint_account,1.0,0.5225643999874591,729,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+I asked for my transaction history a week ago and still nothing.,latest_transactions,latest_transactions,1.0,0.438743900042027,715,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+My bill paymnet failed,pay_bill,pay_bill,0.99,0.424722700146958,708,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.01,0.0,0.0,0.0,0.0,0.99
+Waht's in my busines account?,balance,balance,1.0,0.468861100031062,711,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+um so I'm checking if the payment for my holiday rental went out,latest_transactions,latest_transactions,1.0,0.41163429990410805,716,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+pay internet bill,pay_bill,pay_bill,1.0,0.443608399946242,705,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+Could I have my balence on savngs?,balance,balance,1.0,0.439375499961897,713,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"I need to know if I have $2,000 available in the next five minutes.",balance,balance,0.9500000000000001,0.47131770011037505,722,0.0,0.0,0.0,0.03,0.9500000000000001,0.0,0.0,0.0,0.0,0.0,0.02,0.0,0.0,0.0
+How much do I hav left this month?,balance,balance,1.0,0.5857583000324661,711,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Need to check my saveings balance,balance,balance,1.0,0.5583059999626131,709,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+The hostel in Hanoi says my payment didn't go through twice now.,abroad,abroad,0.64,0.504117799922823,717,0.67,0.0,0.0,0.0,0.0,0.0,0.09,0.0,0.0,0.0,0.01,0.0,0.2,0.02
+Can I get a government-backed loan for my small business through you?,business_loan,business_loan,1.0,0.550208400003612,716,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"Website crashed mid-payment, need to know if it's working again ASAP",app_error,app_error,1.0,0.49343759985640606,716,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Is there a maximum on transfers? Need to pay $120k to the bilder for stage two.,high_value_payment,high_value_payment,1.0,0.45462729991413603,724,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+okay um can I hear my last five transactions,latest_transactions,latest_transactions,1.0,0.44881339999847103,711,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+"Pls block my debit card temporarly, think I left it in a taxi last night",freeze,freeze,0.99,0.43565079988911704,721,0.0,0.0,0.0,0.0,0.0,0.0,0.01,0.0,0.0,0.99,0.0,0.0,0.0,0.0
+how do i set up automatic payments for my rent,direct_debit,direct_debit,1.0,0.450643799966201,712,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+I'm thinking about borrowing to buy a delivery van for my florist business. What would the interest rate be over five years? Is there a deposit needed?,business_loan,business_loan,1.0,0.45424389978870705,734,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Can I deposit cash using the app somehow?,cash_deposit,cash_deposit,1.0,0.448045999975875,711,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+I deposited cash at the machine but the receipt shows the wrong amount.,cash_deposit,cash_deposit,0.99,0.41832570009864806,716,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.99,0.0,0.0,0.0,0.0,0.01,0.0
+um the water company's sent a reminder can I settle it over the phone,pay_bill,pay_bill,1.0,0.485056199831888,717,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+Please put a temporary freeze on my debit card while I figure out whether I just misplaced it at home.,freeze,freeze,1.0,0.43411109992302904,723,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"Hello, could you check whether a payment to Coastline Plumbing went out on Friday?",latest_transactions,latest_transactions,1.0,0.44466370018199003,720,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+Every time I try to look at my accounts on the computer I get kicked out.,app_error,app_error,1.0,0.494128500111401,719,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+i need to set up a direct debit for my kids school fees,direct_debit,direct_debit,1.0,0.42834560014307504,715,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+hi um sorry could you tell me how much is in my current account and my savings,balance,balance,1.0,0.46268320013768904,719,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+hi so I need to change the account my direct debits come from,direct_debit,direct_debit,1.0,0.44604980014264506,716,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+hi um I deposited cash this morning and it's not in my account yet,cash_deposit,cash_deposit,0.96,0.45549100008793103,717,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.96,0.0,0.0,0.0,0.0,0.04,0.0
+uh hi my wife wants to deposit some cash into my account can she do that,cash_deposit,cash_deposit,1.0,0.46101359999738606,718,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+I'm travelling for most of the year and don't really have a fixed address at the moment. Can I use my parents' house as my mailing address?,address,address,1.0,0.462981899967417,734,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+hi um my farm needs money for a new shearing shed,business_loan,business_loan,1.0,0.450274700066074,714,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"Sorry to trouble you, could I get a statement for March?",latest_transactions,latest_transactions,0.99,0.39719170005992005,715,0.0,0.0,0.0,0.0,0.01,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.99,0.0
+how do i pay my energy bill from the app,pay_bill,pay_bill,1.0,0.43595409998670204,712,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+How do I add my solicitor as a payee for a large payment?,high_value_payment,high_value_payment,1.0,0.46782470005564303,719,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+right so the car yard needs forty thousand before I can drive the car away,high_value_payment,high_value_payment,0.92,0.431732700206339,717,0.0,0.0,0.0,0.01,0.0,0.05,0.0,0.0,0.0,0.0,0.93,0.0,0.0,0.01
+right so I need to know exactly how much is in there to the cent please,balance,balance,1.0,0.432725100079551,718,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+My card is due to expire next month. I usually get a new one automatically. Has it been sent yet?,card_issues,card_issues,1.0,0.41963010001927603,725,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+i'm um i'm in vancouver right now and my card isn't working at any of the shops,abroad,abroad,0.53,0.423221600009128,724,0.56,0.0,0.0,0.0,0.0,0.0,0.44,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"okay so we're on a cruise and the ship charges everything in US dollars, will I get hit with a conversion fee",abroad,abroad,1.0,0.447291099932044,726,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+do we need an appointment to open a joint account,joint_account,joint_account,1.0,0.46451380010694204,712,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+Can I apply for a business loan online or do I need a meeting?,business_loan,business_loan,1.0,0.43103919993154705,717,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+I need to borrow to cover payroll for a couple of months while a big invoice clears.,business_loan,business_loan,1.0,0.40043759997934103,720,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Can my partner freeze my card for me if I'm unwell?,freeze,freeze,1.0,0.809669000096619,716,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+Joint account for me and my girlfrend,joint_account,joint_account,1.0,0.41887079994194204,711,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+I got an email saying a payment went through on my card yesterday but I don't remember buying anything. Can I see a list of the last ten transactions on my account? I want to check before I panic.,latest_transactions,latest_transactions,1.0,0.44765540002845206,745,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+freeze credit card,freeze,freeze,1.0,0.456054400186985,705,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+equipment loan for business,business_loan,business_loan,1.0,0.407802500063553,706,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Can my partner have full access to my account as a co-holder?,joint_account,joint_account,1.0,0.465291199972853,716,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+Why does my transaction list show the merchant's name differently?,latest_transactions,latest_transactions,1.0,0.43929799995385105,714,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+Can I see the total amount in my term deposit including interest?,balance,balance,1.0,0.425486400024965,715,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Fees for using card in Japan?,abroad,abroad,1.0,0.44326050020754304,709,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+i want all direct debits on my old account cancelled,direct_debit,direct_debit,1.0,0.430240100016817,713,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+How much can my teenager withdraw from a cash machine per day with his card?,atm_limit,atm_limit,1.0,0.520783300045877,718,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+My card was stolen along with my phone on the bus.,card_issues,card_issues,0.98,0.43065240001305904,714,0.0,0.0,0.0,0.0,0.0,0.0,0.98,0.0,0.0,0.02,0.0,0.0,0.0,0.0
+Your app keeps saying my pasword is incorect but I know its right,app_error,app_error,1.0,0.449969199951738,718,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Can both of us have a debit card on the joint account?,joint_account,joint_account,1.0,0.47365910001099104,715,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+How do I unlock my card after three wrong PIN attempts?,freeze,freeze,0.9400000000000001,0.48983209999278104,714,0.0,0.0,0.0,0.0,0.0,0.0,0.06,0.0,0.0,0.9400000000000001,0.0,0.0,0.0,0.0
+whats the fee for a same day high amount transfer,high_value_payment,high_value_payment,1.0,0.452705300180241,713,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+please call me back about my business loan application asap,business_loan,business_loan,1.0,0.47641160013154105,712,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+whats my balance,balance,balance,1.0,0.412463699933141,706,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"Look, I'm literally stood at a cash machine in Prague and it keeps declining my card even though I told you I was going abroad.",abroad,abroad,1.0,0.5141212998423721,730,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+What happens if I try to withdraw more than my ATM limit?,atm_limit,atm_limit,1.0,0.47739859996363504,715,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"I need to send £250,000 to my solicitor for the completion on our house on Friday.",high_value_payment,high_value_payment,1.0,0.44220779999159204,728,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+whats the earliest date a new direct debit can start,direct_debit,direct_debit,1.0,0.48506970005109906,713,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+"um I just want to know what's gone out of my account since Monday, I think Brightmart might've charged me twice",latest_transactions,latest_transactions,1.0,0.40302419988438404,728,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+"Your digital banking has been unusable all week, pages half load and then stop.",app_error,app_error,1.0,0.461404300061985,720,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+so I'm calling to pay my gas bill,pay_bill,pay_bill,1.0,0.44870850001461804,711,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+My card stoped working this morning,card_issues,card_issues,1.0,0.471077900147065,709,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Is my card ok to use in Switzerland?,abroad,abroad,1.0,0.43901870003901405,711,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"Need to update the amount on my childcare direct debit, it's gone up to $420.",direct_debit,direct_debit,1.0,0.44763959990814306,723,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+right so there's a direct debit going out that I don't know anything about,direct_debit,direct_debit,0.92,0.433087199926376,718,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.93,0.0,0.0,0.0,0.07,0.0
+Where in the app do I edit my phone number?,address,address,1.0,0.5882916999980801,713,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+currency conversion fee??,abroad,abroad,0.99,0.47213440015912006,706,0.99,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.01,0.0
+"Moving to Leeds next wek, how do I change my address?",address,address,1.0,0.47959399991668705,715,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+How much is in my busness account right now?,balance,balance,1.0,0.40180049999617,713,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+how do i pay my credit card from another bank,pay_bill,pay_bill,1.0,0.468500400194898,712,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+hi I'm calling because the website keeps telling me my password's expired but it won't let me make a new one,app_error,app_error,1.0,0.44733170000836203,726,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+hi um I'd like to hear the last ten things on my account,latest_transactions,latest_transactions,1.0,0.467108499957248,716,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+My card wont work at any shop todya,card_issues,card_issues,1.0,0.47221340006217305,711,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+so my card expired yesterday and I haven't got a new one what do I do,card_issues,card_issues,1.0,0.423956700135022,719,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Why do your cards keep breaking? This is my third one this year.,card_issues,card_issues,1.0,0.44704900006763604,717,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"Locked out of the app right before a deadline, need access now!",app_error,app_error,0.99,0.45640980009920806,716,0.0,0.0,0.99,0.0,0.0,0.0,0.0,0.0,0.0,0.01,0.0,0.0,0.0,0.0
+okay um can I pay a bill using my business account,pay_bill,pay_bill,1.0,0.453187800012528,713,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+I'm retired and I'd like to set up direct debits for all my regular bills. I don't trust myself to remember them all. Can someone help me do it?,direct_debit,direct_debit,1.0,0.449536900036036,738,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+"I'm buying my brother's share of the family home for £140,000.",high_value_payment,high_value_payment,1.0,0.438225300051271,723,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+the new card you sent doesnt work,card_issues,card_issues,1.0,0.44776119990274305,709,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"right so I've downloaded the app on my new phone and it won't let me register, it just says something went wrong",app_error,app_error,1.0,0.42681419989094105,727,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+I unfroze my card in the app and it's STILL not working.,freeze,card_issues,0.8300000000000001,0.464488500030711,718,0.0,0.0,0.0,0.0,0.0,0.0,0.84,0.0,0.0,0.16,0.0,0.0,0.0,0.0
+Can my partner be added online?,joint_account,joint_account,1.0,0.46051409980282104,709,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+Unfreeze card please,freeze,freeze,1.0,0.44583590002730406,707,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+uh hi I need to block my card I left it at the pub,freeze,freeze,0.92,0.47886499995365706,716,0.0,0.0,0.0,0.0,0.0,0.0,0.07,0.0,0.0,0.93,0.0,0.0,0.0,0.0
+update my address,address,address,1.0,0.476207199972122,705,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+honestly I've been on hold for an hour just to authorise a large payment,high_value_payment,high_value_payment,1.0,0.446499299956485,721,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+I've got a stack of supplier invoices to pay this week. Can I pay several bills at once in the app? Or do I need to do each one separately?,pay_bill,pay_bill,1.0,0.45448740012943706,736,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+I'd like to freeze my credit card for a few months. I'm trying to pay it off and don't want to be tempted. Will it affect my credit score?,freeze,freeze,1.0,0.44662500009872,737,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+is there a form to change my address,address,address,1.0,0.45859649986959905,710,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"I want to stop myself withdrawing more than $60 a day, gambling problem, please help.",atm_limit,atm_limit,1.0,0.436653800075873,722,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Can the company that does my bins take payment straight from my account each quarter?,direct_debit,direct_debit,1.0,0.492914399830624,718,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+"Business trip to Frankfurt next week, need my company card active for Germany.",abroad,abroad,0.96,0.446548599982634,717,0.96,0.0,0.0,0.0,0.0,0.0,0.01,0.0,0.0,0.03,0.0,0.0,0.0,0.0
+um I'd like to send a large amount to my sister for her house deposit,high_value_payment,high_value_payment,1.0,0.444156700046733,718,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+Does the ATM limit include cash out at the supermarket checkout?,atm_limit,atm_limit,1.0,0.44310919987037706,714,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+What's the difference between a business loan and a business overdraft?,business_loan,business_loan,1.0,0.43763640010729404,716,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+hang on um does the limit apply if I use a different bank's machine,atm_limit,atm_limit,1.0,0.423216800205409,717,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+How do I add the money I got from my stall to my business account?,cash_deposit,cash_deposit,1.0,0.439518699888139,718,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+uh how much is left on my account this month,balance,balance,1.0,0.51842730003409,712,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+My gym direct debit was cancelled by mistake and now they're charging me a late fee. Can it be reinstated? I'd like it to come out on the same date as before.,direct_debit,direct_debit,1.0,0.40443779993802303,741,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+Could I please update the email address associated with my account?,address,address,1.0,0.41059200000017804,714,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"Going to the US for a conference, do I tell you or is that automatic now?",abroad,abroad,1.0,0.44601790001615804,720,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+um I've moved down the coast to Byron so where do I let you know that,address,address,1.0,0.44250370003283,719,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+How do I chnage my ATM limit on the app?,atm_limit,atm_limit,1.0,0.45371959987096405,715,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+I'm moving in with my daughter in Tucson next month. How do I make sure your letters come to her place instead?,address,address,1.0,0.46034789993427605,727,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+my debit stopped working on online shopping sites today,card_issues,card_issues,1.0,0.423112999880686,711,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Would it be possible to raise my daily cash limit? I'm self-employed and often need to pay suppliers in cash. Thanks in advance.,atm_limit,atm_limit,1.0,0.42042099987156606,730,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+hi sorry I'm ringing from the hotel phone in Lisbon because my card's not working and my mobile's dead,abroad,abroad,0.62,0.49269400001503505,724,0.65,0.0,0.0,0.0,0.0,0.0,0.35000000000000003,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+honestly paying a simple bill shouldn't be this complicated,pay_bill,pay_bill,1.0,0.47138380003161706,714,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+uh yes I want my latest statement please,latest_transactions,latest_transactions,0.99,0.444253900088369,710,0.0,0.0,0.0,0.0,0.01,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.99,0.0
+"Website says my acount is locked, I didnt do anything",app_error,freeze,0.7000000000000001,0.48087369999848306,714,0.0,0.0,0.28,0.0,0.0,0.0,0.0,0.0,0.0,0.72,0.0,0.0,0.0,0.0
+I need to know if my account has gone into the red.,balance,balance,1.0,0.45058849989436506,715,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+so uh my card keeps failing at the petrol pump but works inside the shop,card_issues,card_issues,1.0,0.48914780002087305,717,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+hi there um we want to pool our money for a house can we have one account,joint_account,joint_account,1.0,0.468638299964368,719,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+can i pay for a car with a bank cheque,high_value_payment,high_value_payment,0.92,0.49400809989310807,712,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.93,0.0,0.0,0.07
+Can I deposit cahs on the weekend?,cash_deposit,cash_deposit,1.0,0.43702260009013105,711,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+can i get my statement emailed,latest_transactions,latest_transactions,0.87,0.47629449982196004,708,0.0,0.11,0.0,0.0,0.01,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.88,0.0
+What's the balance on my daughter's savings account? I'm the parent on it.,balance,balance,1.0,0.47300980007275906,720,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+can i deposit cash for someone else,cash_deposit,cash_deposit,1.0,0.48407689994201003,709,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+"Retiring to the Gold Coast, need my contact details updated with the new address and number.",address,address,1.0,0.460007400019094,721,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"honestly the queue to deposit cash at your branch is ridiculous, is there another way",cash_deposit,cash_deposit,1.0,0.44761459995061104,720,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+Please stop the recurring payment to Brightline Magazines.,direct_debit,direct_debit,1.0,0.44881840003654305,715,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+"I want to freeze my son's card, he's been spending on games without asking.",freeze,freeze,1.0,0.467725200112909,720,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"Every time I tap Transfer on my phone the screen freezes and I have to force close it, is there a known problem at the moment?",app_error,app_error,1.0,0.45079529983922806,730,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+okay um I need a printout of my transactions from the last month for my accountant,latest_transactions,latest_transactions,1.0,0.518607100006192,719,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+is there a maximum cash deposit at the counter,cash_deposit,cash_deposit,1.0,0.45055619999766305,711,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+okay so how much is there in my everyday account,balance,balance,1.0,0.6862309998832641,712,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+please set my atm limit to 300,atm_limit,atm_limit,1.0,0.510451499838382,712,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+right I'm just calling to update my contact details nothing urgent,address,address,1.0,0.42944450001232304,714,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+uh yes I want to pay a bill over the phone please,pay_bill,pay_bill,1.0,0.42472060001455203,714,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+How do I add a new biller to pay my internet bill?,pay_bill,pay_bill,0.76,0.471090799896046,716,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.22,0.0,0.0,0.0,0.0,0.78
+where can i deposit cash in town,cash_deposit,cash_deposit,1.0,0.48178650019690306,709,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+Can I deposit cash into my business account at a personal banking ATM?,cash_deposit,cash_deposit,1.0,0.49671650002710505,716,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+block my account,freeze,freeze,1.0,0.429520500125363,705,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"Need working capital to get through the quiet season, around $20k. What can you do?",business_loan,business_loan,1.0,0.44766169996000804,723,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Is it possible to set how much cash my card can withdraw each day?,atm_limit,atm_limit,1.0,0.516560000134632,717,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+do you offer loans for farms,business_loan,business_loan,1.0,0.49542569997720404,708,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+what do i need to do so my card works in kenya next month,abroad,abroad,1.0,0.45315180020406803,717,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+hi um my card's been blocked by your fraud team but those payments were me,freeze,freeze,0.97,0.45040199998766106,718,0.0,0.0,0.0,0.0,0.0,0.0,0.03,0.0,0.0,0.97,0.0,0.0,0.0,0.0
+I want to set up autopay for my credit card so I never miss the minimum.,direct_debit,direct_debit,1.0,0.484431500080972,720,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+"My balance seems lower than I expected, what is it exactly?",balance,balance,1.0,0.407500599976629,715,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+uh hi I'm calling cause I'm in Spain and my card just stopped working at the supermarket here,abroad,abroad,0.8300000000000001,0.44037209986709,722,0.84,0.0,0.0,0.0,0.0,0.0,0.16,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+right so the gym's still charging me monthly and I cancelled ages ago,direct_debit,direct_debit,1.0,0.49744749977253305,716,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+so I'm a student and my parents want to open a joint account with me for my allowance,joint_account,joint_account,1.0,0.452885699924081,721,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+Is there a fee to unblock my account?,freeze,freeze,1.0,0.755818200064823,712,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+so um I need to borrow some money for my company to buy new stock,business_loan,business_loan,1.0,0.45129289990291,717,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+The bank suspended my account and I need access to my wages.,freeze,freeze,1.0,0.42398760002106406,715,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+right um my practice needs new dental chairs and I need to borrow for them,business_loan,business_loan,1.0,0.474851799895986,717,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+uh hi can my son be added to my account he lives with me,joint_account,joint_account,1.0,0.4940770000685,716,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+hi um I think I've been scammed can all money leaving my account be stopped,freeze,freeze,1.0,0.478534299880266,720,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+so basically I need to know what I've got in the bank,balance,balance,1.0,0.46551979985088104,715,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"Please change the address you send letters to, I've moved to Fitzroy.",address,address,1.0,0.43147069984115605,718,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+so we've relocated the shop to new premises on Grafton Street and I need the business account details pointing there now,address,address,1.0,0.45551529992371803,726,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+atm limit increase needed right now,atm_limit,atm_limit,1.0,0.44800079986453,708,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+so I'm a hairdresser and I'm going out on my own and I need a loan for the chairs and stuff,business_loan,business_loan,1.0,0.44979700003750606,727,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"right so has the money from my client landed yet, it was meant to come yesterday",latest_transactions,latest_transactions,0.62,0.43035929999314204,719,0.0,0.0,0.0,0.0,0.02,0.0,0.0,0.0,0.0,0.0,0.33,0.0,0.65,0.0
+hi um can you check if a payment to my daughter's school went through,latest_transactions,latest_transactions,1.0,0.524674799991771,717,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+"Our bakery needs about $35,000 to replace the ovens. Can you help us fund that?",business_loan,business_loan,1.0,0.45008860016241603,725,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+mate i need to see what came out of the business account over the last fortnight cos somethings not adding up,latest_transactions,latest_transactions,1.0,0.444181300001218,727,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+Can my card be switched off for the weekend?,freeze,freeze,1.0,0.483228400116786,712,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+so uh I'm a student and I do some tutoring for cash how do I get it into my account,cash_deposit,cash_deposit,1.0,0.44595700013451206,723,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+so I'm a small business owner and I want to collect payments from my clients by direct debit,direct_debit,direct_debit,1.0,0.502489799866452,721,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0
+I need to pull out more notes today than the machine usually lets me.,atm_limit,atm_limit,1.0,0.41222620010375904,717,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+business loan application,business_loan,business_loan,1.0,0.40460270014591504,705,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+lost my card at the beach yesterday,card_issues,card_issues,1.0,0.40717789996415304,709,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+how much have i got left in my everyday account till payday,balance,balance,1.0,0.41407439997419704,714,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0

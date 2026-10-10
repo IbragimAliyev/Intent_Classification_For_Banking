@@ -1,0 +1,16 @@
+{
+  "abroad": "The customer is travelling or in another country, or is charged in a foreign currency, and has a problem or question about using their card, account or cash abroad.",
+  "address": "The customer wants to change or update their contact details: home or postal address, phone number or email address.",
+  "app_error": "The mobile banking app or online banking is not working, crashing or showing an error.",
+  "atm_limit": "The customer asks about or wants to change how much cash they can withdraw from an ATM.",
+  "balance": "The customer wants to know how much money is in their account or whether it is overdrawn.",
+  "business_loan": "The customer asks about a loan or financing for their business.",
+  "card_issues": "The customer's card is lost, stolen, damaged, not arrived or not working when paying.",
+  "cash_deposit": "The customer wants to deposit cash into their account.",
+  "direct_debit": "The customer wants to set up, change or cancel a direct debit or regular automatic payment.",
+  "freeze": "The customer wants to freeze, block, unfreeze or unblock their card or account.",
+  "high_value_payment": "The customer wants to make or has a problem with a large payment or transfer.",
+  "joint_account": "The customer wants to open, change or ask about a joint account shared with another person.",
+  "latest_transactions": "The customer wants to see or check their recent transactions or a specific charge.",
+  "pay_bill": "The customer wants to pay a bill."
+}
