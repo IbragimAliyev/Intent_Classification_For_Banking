@@ -1,0 +1,64 @@
+This repository contains code and data under different licenses.
+
+================================================================================
+1. Code: MIT License
+================================================================================
+
+Applies to all source code in this repository, including `src/` and `notebooks/`.
+
+MIT License
+
+Copyright (c) 2026 Ibrahim Aliyev, Mahmut Örnek, Shahem Hasunoglu, Tuğra Geler
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+================================================================================
+2. Synthetic dataset: Creative Commons Attribution 4.0 International (CC BY 4.0)
+================================================================================
+
+Applies to the synthetic banking dataset created for this project:
+
+- data/raw/synthetic_raw.csv
+- data/processed/synthetic_clean.csv
+- data/processed/train.csv
+- data/processed/val.csv
+- data/processed/test.csv
+
+Copyright (c) 2026 Ibrahim Aliyev, Mahmut Örnek, Shahem Hasunoglu, Tuğra Geler
+
+You are free to share and adapt this dataset for any purpose, provided you give
+appropriate credit, provide a link to the license, and indicate if changes were made.
+
+Full license text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+================================================================================
+3. MINDS-14: third-party data, CC BY 4.0
+================================================================================
+
+`data/processed/minds14_en.csv`, and the files in `results/` that contain its messages,
+are derived from the MINDS-14 dataset by PolyAI. MINDS-14 is not covered by the licenses
+above; it is used and redistributed here under its own license, CC BY 4.0.
+
+- Source: https://huggingface.co/datasets/PolyAI/minds14
+- Paper: Gerz et al. (2021), "Multilingual and Cross-Lingual Intent Detection from
+  Spoken Data", https://arxiv.org/abs/2104.08524
+- Changes made: kept only the English configurations (en-US, en-GB, en-AU) and the
+  transcription and intent fields; intent numbers converted to intent names.
+
+Full license text: https://creativecommons.org/licenses/by/4.0/legalcode
