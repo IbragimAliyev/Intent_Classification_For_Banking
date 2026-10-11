@@ -9,3 +9,5 @@ bert_base,synthetic_test,0.9801,0.9799
 bert_base,minds14,0.9149,0.9155
 xlmr_base,synthetic_test,0.9823,0.9821
 xlmr_base,minds14,0.9243,0.9244
+tfidf_nb,synthetic_test,0.9314,0.9298
+tfidf_nb,minds14,0.8231,0.8189

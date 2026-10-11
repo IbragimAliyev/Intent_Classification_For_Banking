@@ -16,6 +16,7 @@ Full tables, paired comparisons and the chart are in `notebooks/09_benchmark.ipy
 | `sbert_svm` | baseline* | MPNet encoder (frozen) + linear SVM | `all-mpnet-base-v2` | 0.987 [0.975, 0.996] | 0.917 [0.904, 0.928] |
 | `bert_base` | baseline | BERT, fine-tuned | `bert-base-uncased` | 0.980 [0.965, 0.991] | 0.916 [0.903, 0.927] |
 | `tfidf_lr` | baseline | TF-IDF (word 1-2 grams) + logistic regression | trained from scratch | 0.939 [0.914, 0.959] | 0.864 [0.847, 0.879] |
+| `tfidf_nb` | baseline | TF-IDF (word 1-2 grams) + multinomial Naive Bayes | trained from scratch | 0.930 [0.902, 0.951] | 0.819 [0.801, 0.836] |
 
 \* Baseline if the method was covered in the lectures, otherwise a new method.
 
@@ -26,8 +27,10 @@ Full tables, paired comparisons and the chart are in `notebooks/09_benchmark.ipy
 - **On MINDS-14, Jev is clearly the best model**, even though it is never trained on our data
   (zero-shot, with one-sentence intent descriptions). Paired bootstrap intervals against every
   other model exclude 0.
-- **All models lose accuracy on real data.** The trained models drop 5.8 to 7.5 points of macro-F1,
-  Jev 3.8.
+- **All models lose accuracy on real data.** The trained models drop 5.8 to 11.1 points of macro-F1
+  (Naive Bayes the most), Jev 3.8.
+- **Naive Bayes is the weakest model.** It ties with logistic regression on the synthetic test, but on
+  MINDS-14 logistic regression on the same features is clearly better, so the classifier matters on real data.
 - **Fine-tuning did not beat frozen sentence embeddings:** XLM-R, BERT and embeddings + SVM are
   statistically tied on MINDS-14.
 
@@ -88,6 +91,7 @@ models/            trained models (not in git, recreated by the notebooks)
 |---|---|---|---|
 | 01 | `01_preprocessing` | normalization, near-duplicate removal, 70/15/15 split | Mahmut |
 | 02 | `02_tfidf_baseline` | TF-IDF + logistic regression, C tuned on validation | Ibrahim |
+| 02b | `02b_naive_bayes` | TF-IDF + multinomial Naive Bayes, alpha tuned on validation | Ibrahim |
 | 03 | `03_sentence_embeddings_svm` | `all-mpnet-base-v2` embeddings + linear SVM | Shahem |
 | 04 | `04_embeddings_analysis` | embeddings vs TF-IDF: error analysis, typo test, t-SNE plot | Tuğra |
 | 05 | `05_bert_finetune` | fine-tuning `bert-base-uncased` | Shahem |
@@ -110,7 +114,7 @@ pip install -r requirements.txt
 **2. Order.** Run the notebooks from inside `notebooks/` (all paths start with `../`), in this order:
 
 - `01` creates the split. Its output is already in `data/processed/`, so this step is optional.
-- `02` and `03` train the classic models and save them to `models/`. Notebooks `04` and `07` need these files.
+- `02`, `02b` and `03` train the classic models and save them to `models/`. Notebooks `04` and `07` need these files.
 - `05` and `06` need a GPU. We ran them on Google Colab (T4): clone the repository there and run from `notebooks/`.
 - `07` prepares MINDS-14 (its output is already in `data/processed/`) and needs the models from `02` and `03`.
 - `08` needs a TypeSafe API key (see below).
