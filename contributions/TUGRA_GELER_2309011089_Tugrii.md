@@ -1,5 +1,3 @@
-<!-- DRAFT written from the git history. Tuğra: please check, correct and add details, then delete this line. -->
-
 # Contribution: Tuğra Geler
 
 - **Student ID:** 2309011089

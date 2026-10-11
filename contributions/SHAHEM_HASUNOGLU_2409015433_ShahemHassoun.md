@@ -1,5 +1,3 @@
-<!-- DRAFT written from the git history. Shahem: please check, correct and add details, then delete this line. -->
-
 # Contribution: Shahem Hasunoglu
 
 - **Student ID:** 2409015433
