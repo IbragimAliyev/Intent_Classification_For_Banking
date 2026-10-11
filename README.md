@@ -12,13 +12,15 @@ Full tables, paired comparisons and the chart are in `notebooks/09_benchmark.ipy
 | Model | Type | Architecture | Specific model | Synthetic test | MINDS-14 (real) |
 |---|---|---|---|---|---|
 | `jev` | new | not public (commercial API) | `jev-1.13.0` (via `jev-latest`) | **0.989** [0.979, 0.998] | **0.951** [0.941, 0.961] |
-| `xlmr_base` | baseline* | XLM-RoBERTa, fine-tuned | `xlm-roberta-base` | 0.982 [0.968, 0.992] | 0.924 [0.913, 0.936] |
-| `sbert_svm` | baseline* | MPNet encoder (frozen) + linear SVM | `all-mpnet-base-v2` | 0.987 [0.975, 0.996] | 0.917 [0.904, 0.928] |
+| `xlmr_base` | new | XLM-RoBERTa, fine-tuned | `xlm-roberta-base` | 0.982 [0.968, 0.992] | 0.924 [0.913, 0.936] |
+| `sbert_svm` | new | MPNet encoder (frozen) + linear SVM | `all-mpnet-base-v2` | 0.987 [0.975, 0.996] | 0.917 [0.904, 0.928] |
 | `bert_base` | baseline | BERT, fine-tuned | `bert-base-uncased` | 0.980 [0.965, 0.991] | 0.916 [0.903, 0.927] |
 | `tfidf_lr` | baseline | TF-IDF (word 1-2 grams) + logistic regression | trained from scratch | 0.939 [0.914, 0.959] | 0.864 [0.847, 0.879] |
 | `tfidf_nb` | baseline | TF-IDF (word 1-2 grams) + multinomial Naive Bayes | trained from scratch | 0.930 [0.902, 0.951] | 0.819 [0.801, 0.836] |
 
-\* Baseline if the method was covered in the lectures, otherwise a new method.
+**Baseline** = a method covered in the lectures in its vanilla form; **new** = a method beyond them.
+Sentence-level embeddings (sentence-transformers) and the multilingual XLM-RoBERTa were not part of
+the lectures, so `sbert_svm` and `xlmr_base` count as new methods, next to the Jev API.
 
 **Main findings**
 
