@@ -7,7 +7,7 @@
 ## Summary
 
 I created the synthetic dataset, set up the repository, wrote the shared evaluation function that
-every model in the project uses, built the TF-IDF + logistic regression baseline, and evaluated the
+every model in the project uses, built the TF-IDF + logistic regression and Naive Bayes baselines, and evaluated the
 Jev API as our "new" method on both test sets. I also wrote the metric justification, the README and
 the dependency list, and corrected the conclusion of the embeddings analysis notebook.
 
@@ -58,7 +58,19 @@ never predicts. I tested it on dummy labels before the team used it.
 - Test result: accuracy 0.9403, macro-F1 0.9386. Weakest intent: `abroad` (F1 0.77), confused with
   `card_issues`, `freeze` and `atm_limit` because they share vocabulary.
 
-## 4. Jev API as a "new" method (`notebooks/08_jev.ipynb`)
+## 4. Naive Bayes baseline (`notebooks/02b_naive_bayes.ipynb`)
+
+- Multinomial Naive Bayes on exactly the same TF-IDF features as the logistic regression baseline,
+  so the comparison isolates the effect of the classifier.
+- Tuned the smoothing parameter alpha on the validation set over `[0.001, ..., 1.0]`; the best value,
+  alpha = 0.3 (validation macro-F1 0.9341), lies inside the range.
+- Results: synthetic test macro-F1 0.930 (tied with logistic regression), MINDS-14 macro-F1 0.819.
+  It is the weakest model on real data and drops the most from synthetic to real data (11.1 points);
+  logistic regression on the same features is clearly better on MINDS-14 (paired bootstrap
+  interval [0.033, 0.059]).
+- Added it to the benchmark (`notebooks/09_benchmark.ipynb`) with a paired comparison against logistic regression.
+
+## 5. Jev API as a "new" method (`notebooks/08_jev.ipynb`)
 
 Jev (TypeSafe AI, `jev-latest`, version `jev-1.13.0` for all 3,634 requests) is a zero-shot
 classification API: it is never trained on our data and only receives the 14 intents as options.
@@ -91,7 +103,7 @@ classification API: it is never trained on our data and only receives the 14 int
   (`results/jev/final_criteria.json`) and every raw API answer (`results/jev/raw/`), so the results
   can be verified without calling the API again.
 
-## 5. Documentation and review
+## 6. Documentation and review
 
 - `report/metric_justification.md`: why macro-F1 is our main metric, why we also report accuracy,
   why micro-F1 and AUC are not used, and why we add bootstrap confidence intervals.
